@@ -26,7 +26,10 @@ let tags = {
 
 const defaultMenu = {
   before: `
- > IGNA BOT FUTURE
+\`꧁•⊹٭ＡＮＹＡ ＢＯＴ٭⊹•꧂\`
+
+> ᴄᴀɴᴀʟ ᴏꜰᴄ|ᴀɴʏᴀ ʙᴏᴛ
+https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
 
 ╭━━━━━━━∙⋆⋅⋆∙━━━━━━━━╮
 ➤📝 *Nombre* : %name
@@ -37,8 +40,8 @@ const defaultMenu = {
 ╰━━━━━━━∙⋆⋅⋆∙━━━━━━━━╯
 
 ╭━━━━━━━∙⋆⋅⋆∙━━━━━━━━╮
-➤🗣️ *Creador* : Daniel 🇦🇱
-➤📲 *Número* : Wa.me/51955918117
+➤🗣️ *Creador* : 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉
+➤📲 *Número* : Wa.me/51936732723
 ➤⌛ *Tiempo* : %uptime
 ╰━━━━━━━∙⋆⋅⋆∙━━━━━━━━╯
 
@@ -152,11 +155,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let pp = 'https://telegra.ph/file/4c3e4b782c82511b3874d.mp4'
-    let pp2 = 'https://telegra.ph/file/d8c5e18ab0cfc10511f63.mp4'
-    let pp3 = 'https://telegra.ph/file/96e471a87971e2fb4955f.mp4'
-    let pp4 = 'https://telegra.ph/file/09b920486c3c291f5a9e6.mp4'
-    m.react('💻')
+    let pp = 'https://imgur.com/a/9jkoGzc'
+    let pp2 = 'https://imgur.com/a/9jkoGzc'
+    let pp3 = 'https://imgur.com/a/9jkoGzc'
+    let pp4 = 'https://imgur.com/a/9jkoGzc'
+    m.react('✅')
    
   //  conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 let listSections = []    
@@ -167,7 +170,7 @@ rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para 
 { header: "Idioma", title: "", id: `.idioma`, description: `elije tu idioma favorito  🌍\n` },
 { header: "creador", title: "", id: `.creador`, description: `comunicate con mi creador ⚙️` }
 ]})
-await conn.sendList(m.chat, '👋🏻 Hola¡! Bienvenido A Mi Sub Menú\n\n*Creador:* Daniel\n*Versión:* 1.0.0\n\n💮 si hay algún error puedes contactarme, usa el comando: #owner\n\nGracias¡! 🔴', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
+await conn.sendList(m.chat, '👋🏻 Hola¡! Bienvenido A Mi Sub Menú\n\n*Creador:* 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉\n*Versión:* 1.0.0\n\n💮 si hay algún error puedes contactarme, usa el comando: #owner\n\nGracias¡! 🔴', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
     throw e
