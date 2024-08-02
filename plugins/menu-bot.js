@@ -82,9 +82,9 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 
 let menu = `⌜ *${wm}* ⌟  
 
- ╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 ⛅  〕⬣
-*┃➤ 👤 Creador : Daniel 🇦🇱* 
-*┃➤ 🧿 Canal : https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33
+\`╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 ⛅  〕⬣\`
+*┃➤ 👤 Creador : 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉* 
+*┃➤ ᴄᴀɴᴀʟ ᴏꜰᴄ|ᴀɴʏᴀ ʙᴏᴛ: https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
 *┃➤ ⌛ Tiempo activo : #uptime*
  ╰━━━━━━━━━━━━⬣
 
@@ -205,19 +205,19 @@ let menu = `⌜ *${wm}* ⌟
 *┃➤ ☁️ ${usedPrefix}qc*
  ╰━━━━━━━━━━━━
 
-🏳️ By Daniel`.trim()
+🏳️ By 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://telegra.ph/file/940ac494d7ca5ca132fea.jpg`)).buffer()  
+let img = await (await fetch(`https://imgur.com/a/9jkoGzc`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
 mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
-title: '❑— IGNA - BOT - MD —❑\nWʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
+title: '꧁•⊹٭ＡＮＹＡ ＢＯＴ٭⊹•꧂\nWʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
 //body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
 thumbnail: img,
-sourceUrl: 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv',
+sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
