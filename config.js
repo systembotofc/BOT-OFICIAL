@@ -11,28 +11,24 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰
 
 global.owner = [ 
-['51955918117', 'Daniel', true],
-['51967647592', 'Naye.xyz', true],
-['59175655964', 'Colaborador Alba070503', true],
-['573012482597', 'Owner', true],
-['51929972576'],
-['5493875262116'],
-['51967647592'],
-['59896392749'],
-['51907913096'], 
-['51906662557'],
-['573183650526'],
-['5492266466080'],
-['51977835959'],
-['5214434703586']]
+['56981631195', '🤖 𝘈𝘕𝘠𝘈 𝘉𝘖𝘛', true],
+['5491139205027', '🤖 𝘈𝘕𝘠𝘈 𝘉𝘖𝘛 𝟮', true],
+['51936732723', '👑 𝘖𝘞𝘕𝘌𝘙', true],
+['51936732723', '✅ 𝘝𝘌𝘕𝘋𝘌𝘋𝘖𝘙 𝘈𝘜𝘛𝘖𝘙𝘐𝘡𝘈𝘋𝘖', true],
+['56949634570', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐴𝑁𝑇𝑂 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['593967946271', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐽𝑂𝑆𝑇𝐻𝐼𝑁 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['573114167966', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝑃𝐴𝑂 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['5493878249889', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐿𝑈𝐿𝑈 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['50242077852', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝑆𝑂𝐹𝐼𝑆 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['51936732723']]
 
-global.mods = ['51977835959']
-global.prems = ['51977835959'],
-global.suittag = ['51955918117']
+global.mods = ['51936732723']
+global.prems = ['51936732723'],
+global.suittag = ['51936732723']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = "" //Ejemplo: +59309090909
+global.botNumberCode = "" //Ejemplo: +51936732723
 global.confirmCode = "" 
 
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰
@@ -41,7 +37,7 @@ global.confirmCode = ""
 //  en = English         pt = Português
 //  ar = عرب 
 
-global.lenguajeGB = es  //Idioma de DokiBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de AnyaBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -100,8 +96,8 @@ global.moment = moment
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'IGNA - BOT - MD 💮🌺'
-global.author = '{\n "bot": {\n   "name": "Igna • Bot",\n     "author": "Daniel",\n   "status_bot": "active"\n }\n}'
+global.packname = '꧁•⊹٭ＡＮＹＡ ＢＯＴ٭⊹•꧂'
+global.author = '{\n "bot": {\n   "name": "╰•★★ Anya Bot ★★•╯",\n     "author": "𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉",\n   "status_bot": "active"\n }\n}'
 
 
 //* *******Tiempo***************
@@ -118,23 +114,23 @@ global.saludo = "" + hour;
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.lb = 'IGNA • BOT'
+global.lb = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
 global.vs = '1.5.7'
 global.vsJB = '1.5.0'
-global.yt = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv'
-global.ig = 'https://www.instagram.com/Jxtxn17'
-global.md = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
-global.fb = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
+global.yt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.ig = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.md = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.fb = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
 
-global.nna = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Actualización, información sobre el bot
-global.nn = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo del Colaboracion
-global.nnnt2 = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' // Grupo COL 2
-global.nnntt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo COL 3
-global.nnnttt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Canal MonkiBot
-global.nnntttt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo ayuda sobre el bot
-global.asistencia = 'wa.me/51906641131' //Dudas? escríbeme...
+global.nna = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Actualización, información sobre el bot
+global.nn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 1
+global.nnn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 2
+global.nnnt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo del Colaboracion
+global.nnnt2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' // Grupo COL 2
+global.nnntt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo COL 3
+global.nnnttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Canal MonkiBot
+global.nnntttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo ayuda sobre el bot
+global.asistencia = 'wa.me/51936732723' //Dudas? escríbeme...
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
@@ -155,13 +151,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = 'Igna • Bot'
-global.igfg = 'Igna • Bot'
+global.wm = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
+global.igfg = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
 global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
-global.nomorown = 'Igna • Bot'
+global.nomorown = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
@@ -169,8 +165,8 @@ global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.pre
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
 global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
 global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
-global.img = 'https://i.imgur.com/H6AofpJl.jpg'
-global.img2 = 'https://i.imgur.com/R1uVUId.jpeg'
+global.img = 'https://imgur.com/a/9jkoGzc'
+global.img2 = 'https://imgur.com/a/9jkoGzc'
 
 global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, ig, lb, fb, yt]
 global.gataMenu = [img, img2]
