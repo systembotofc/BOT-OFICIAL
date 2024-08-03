@@ -11,8 +11,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰
 
 global.owner = [ 
-['56981631195', '🤖 𝘈𝘕𝘠𝘈 𝘉𝘖𝘛', true],
-['5491139205027', '🤖 𝘈𝘕𝘠𝘈 𝘉𝘖𝘛 𝟮', true],
+['56981631195', '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇', true],
 ['51936732723', '👑 𝘖𝘞𝘕𝘌𝘙', true],
 ['51936732723', '✅ 𝘝𝘌𝘕𝘋𝘌𝘋𝘖𝘙 𝘈𝘜𝘛𝘖𝘙𝘐𝘡𝘈𝘋𝘖', true],
 ['56949634570', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐴𝑁𝑇𝑂 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
@@ -37,7 +36,7 @@ global.confirmCode = ""
 //  en = English         pt = Português
 //  ar = عرب 
 
-global.lenguajeGB = es  //Idioma de AnyaBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de Mizuki|Bot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -96,8 +95,8 @@ global.moment = moment
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '꧁•⊹٭ＡＮＹＡ ＢＯＴ٭⊹•꧂'
-global.author = '{\n "bot": {\n   "name": "╰•★★ Anya Bot ★★•╯",\n     "author": "𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉",\n   "status_bot": "active"\n }\n}'
+global.packname = 'Ｍｉｚｕｋｉ | Ｂｏｔ'
+global.author = '{\n "bot": {\n   "name": "╰•★Ｍｉｚｕｋｉ | Ｂｏｔ★•╯",\n     "author": "𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉",\n   "status_bot": "active"\n }\n}'
 
 
 //* *******Tiempo***************
@@ -157,7 +156,7 @@ global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
+global.nomorown = 'Ｍｉｚｕｋｉ | Ｂｏｔ'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
