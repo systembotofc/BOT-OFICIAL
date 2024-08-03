@@ -1159,9 +1159,9 @@ const messageNumber = user.bannedMessageCount + 1;
 const messageText = `âš ï¸ ESTAS BANEADO âš ï¸\nAviso (${messageNumber}/3) ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : 'Motivo: (spam)'}
 *ðŸ‘‰ðŸ» Puedes contactar al propietario del Bot si crees que se trata de un error o para charlar sobre tu desbaneo*
 
-ðŸ‘‰ wa.me/51977835959
-ðŸ‘‰ Wa.me/51907913096
-ðŸ‘‰ wa.me/51977835959`.trim();
+ðŸ‘‰ wa.me/51936732723
+ðŸ‘‰ Wa.me/51936732723
+ðŸ‘‰ wa.me/51936732723`.trim();
 m.reply(messageText);
 user.bannedMessageCount++;
 } else if (user.bannedMessageCount === 3) {
@@ -1407,19 +1407,19 @@ let vn = 'https://qu.ax/cUYg.mp3'
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
             this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": '乂 Bᴏᴛ Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ 乂', "body": `${packname}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": md}}})
 			    
-sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
+sock.sendMessage(anu.id, { text: `\`\`\`[!] Adios ctmr. : @${name.split("@")[0]} 😹\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363160031023229@newsletter', 
+newsletterJid: '0029VajUEsCB4hdNTg04zh1u@newsletter', 
 serverMessageId: '', 
-newsletterName: 'INFINITY-WA 💫' }, 
+newsletterName: 'ＭＩＺＵＫＩ | ＢＯＴ' }, 
 forwardingScore: 9999999,
 isForwarded: true,  
 mentionedJid:[num],
 "externalAdReply": {"showAdAttribution": true,
 "containsAutoReply": true,
-"title": '乂 ＡＤＩＯ́Ｓ 乂', 
-body: `Esperemos que no vuelva -_-`,
+"title": 'ＭＩＺＵＫＩ | ＢＯＴ', 
+body: `Esperemos que no vuelva.`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": leave,
@@ -1501,10 +1501,10 @@ global.dfail = (type, m, conn) => {
         private: `> AVISO\n\nHola @${m.sender.split`@`[0]}, este comando solo puede ser utilizado en mi Chat *Privado*.`,
         admin: `> AVISO\n\nHola @${m.sender.split`@`[0]}, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
         botAdmin: `>AVISO\n\nHola @${m.sender.split`@`[0]}, la bot debe ser *Administradora* para ejecutar este Comando.`,
-        unreg: `> AVISO\n\nHola @${m.sender.split`@`[0]}, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg Daniel.18*_`,
+        unreg: `> AVISO\n\nHola @${m.sender.split`@`[0]}, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n_Ejemplo: */reg Mizuki.18*_`,
         restrict: `> AVISO\n\nHola @${m.sender.split`@`[0]}, esta caracterÃ­stica estÃ¡ *deshabilitada*`  
     }[type]
-    if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: '𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭 - 𝐌𝐮𝐥𝐭𝐢 𝐃𝐞𝐯𝐢𝐜𝐞', body: [wm, 'Igna •Bot' + lb + ' Igna • Bot 🪙', 'Igna • Bot 🈴'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, yt, nnn, nn, fb, ig].getRandom(), mediaType: 1}}}, { quoted: m }).then(_ => m.react('❌'))
+    if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: 'ＭＩＺＵＫＩ | ＢＯＴ', body: [wm, 'ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ' + lb + ' ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ', 'ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, nna, yt, nnn, nn, fb, ig].getRandom(), mediaType: 1}}}, { quoted: m }).then(_ => m.react('❌'))
 }
 
 let file = global.__filename(import.meta.url, true)
