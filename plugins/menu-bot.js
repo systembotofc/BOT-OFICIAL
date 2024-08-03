@@ -150,63 +150,63 @@ let menu = `\`⌜ *ＭＥＮＵ | ＣＯＭＰＬＥＴＯ* ⌟\`
 ┃➔ 😎 ${usedPrefix}kchero
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 〕━━╮\`
-*┃➤ 📥 ${usedPrefix}play*
-*┃➤ 📥 ${usedPrefix}play.1*
-*┃➤ 📥 ${usedPrefix}play2.2*
-*┃➤ 📥 ${usedPrefix}ytv.2*
-*┃➤ 📥 ${usedPrefix}yta.2*
-*┃➤ 📥 ${usedPrefix}playlist*
-*┃➤ 📥 ${usedPrefix}spotify*
-*┃➤ 📥 ${usedPrefix}spotifydl*
-*┃➤ 📥 ${usedPrefix}tiktok*
-*┃➤ 📥 ${usedPrefix}instagram*
-*┃➤ 📥 ${usedPrefix}mediafire*
-*┃➤ 📥 ${usedPrefix}gdrive*
-*┃➤ 📥 ${usedPrefix}twitter*
-*┃➤ 📥 ${usedPrefix}yta*
-*┃➤ 📥 ${usedPrefix}ytv*
-*┃➤ 📥 ${usedPrefix}imagen*
-*┃➤ 📥 ${usedPrefix}iaimagen*
-*┃➤ 📥 ${usedPrefix}pinteres*
-*┃➤ 📥 ${usedPrefix}igstory*
+\`╭━━〔 *𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒* 〕━━╮\`
+┃➔ ▶️ ${usedPrefix}play*
+┃➔ ▶️ ${usedPrefix}play.1*
+┃➔ ▶️ ${usedPrefix}play2.2*
+┃➔ 🎮 ${usedPrefix}ytv.2*
+┃➔ 🎮 ${usedPrefix}yta.2*
+┃➔ 🎧 ${usedPrefix}playlist*
+┃➔ 🎧 ${usedPrefix}spotify*
+┃➔ 🎧 ${usedPrefix}spotifydl*
+┃➔ 🎤 ${usedPrefix}tiktok*
+┃➔ 🎤 ${usedPrefix}instagram*
+┃➔ 🎤 ${usedPrefix}mediafire*
+┃➔ 🎤 ${usedPrefix}gdrive*
+┃➔ 🎤 ${usedPrefix}twitter*
+┃➔ 🎮 ${usedPrefix}yta*
+┃➔ 🎮 ${usedPrefix}ytv*
+┃➔ 🎮 ${usedPrefix}imagen*
+┃➔ ⏯️ ${usedPrefix}iaimagen*
+┃➔ ⏯️ ${usedPrefix}pinteres*
+┃➔ 🎧 ${usedPrefix}igstory*
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔 ✨ 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 ✨  〕*
-*┃➤ 🔍 ${usedPrefix}xnxxsearch*
-*┃➤ 🔍 ${usedPrefix}tiktoksearch*
-*┃➤ 🔍 ${usedPrefix}google*
-*┃➤ 🔍 ${usedPrefix}letra*
-*┃➤ 🔍 ${usedPrefix}wikipedia*
-*┃➤ 🔍 ${usedPrefix}ytsearch*
-*┃➤ 🔍 ${usedPrefix}playstore*
-*┃➤ 🔍 ${usedPrefix}mercadolibre*
-*┃➤ 🔍 ${usedPrefix}pornhubsearch*
- ╰━━━━━━━━━━━━
+\`╭━━〔 *𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒* 〕━━╮\`
+┃➔ 🕵️‍♂️ ${usedPrefix}xnxxsearch*
+┃➔ 📂 ${usedPrefix}tiktoksearch*
+┃➔ 🌐 ${usedPrefix}google*
+┃➔ 🔎 ${usedPrefix}letra*
+┃➔ 🗂️ ${usedPrefix}wikipedia*
+┃➔ 🌐 ${usedPrefix}ytsearch*
+┃➔ 🕵️‍♂️ ${usedPrefix}playstore*
+┃➔ 🔎 ${usedPrefix}mercadolibre*
+┃➔ 📂 ${usedPrefix}pornhubsearch*
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔 🌝 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🌝 〕
-*┃➤ 🍃 ${usedPrefix}mute*
-*┃➤ 🍃 ${usedPrefix}trad*
-*┃➤ 🍃 ${usedPrefix}calc*
-*┃➤ 🍃 ${usedPrefix}del*
-*┃➤ 🍃 ${usedPrefix}whatmusic*
- ╰━━━━━━━━━━━━
+\`╭━━〔 *𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒* 〕━━╮\`
+┃➔ 🔇 ${usedPrefix}mute*
+┃➔ 🎷 ${usedPrefix}trad*
+┃➔ 🧮 ${usedPrefix}calc*
+┃➔ 🗑️ ${usedPrefix}del*
+┃➔ 🎶 ${usedPrefix}whatmusic*
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
-*╭━〔 💎 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒 💎 〕*
-*┃➤ 🍁 ${usedPrefix}crimen*
-*┃➤ 🍁 ${usedPrefix}reg*
-*┃➤ 🍁 ${usedPrefix}minar*
-*┃➤ 🍁 ${usedPrefix}buy*
-*┃➤ 🍁 ${usedPrefix}work*
-*┃➤ 🍁 ${usedPrefix}mendigar*
- ╰━━━━━━━━━━━━
+\`╭━━〔 *𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒* 〕━━╮\`
+┃➔ 🔫 ${usedPrefix}crimen*
+┃➔ 📝 ${usedPrefix}reg*
+┃➔ ⛏️ ${usedPrefix}minar*
+┃➔ 🪓 ${usedPrefix}buy*
+┃➔ 💎 ${usedPrefix}work*
+┃➔ 🏗️ ${usedPrefix}mendigar*
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔  𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒 ⛅  〕
-*┃➤ ☁️ ${usedPrefix}s*
-*┃➤ ☁️ ${usedPrefix}emojimix*
-*┃➤ ☁️ ${usedPrefix}attp*
-*┃➤ ☁️ ${usedPrefix}qc*
- ╰━━━━━━━━━━━━`.trim()
+\`╭━━〔 *𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒* 〕━━╮\`
+┃➔ 🛠️ ${usedPrefix}s*
+┃➔ 🏷️ ${usedPrefix}emojimix*
+┃➔ ⚙️ ${usedPrefix}attp*
+┃➔ 🔩 ${usedPrefix}qc*
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
 let img = await (await fetch(`https://tse4.mm.bing.net/th?id=OIG3.cLOJAQj8neUVXa2OXGEU&pid=ImgGn`)).buffer()  
 await conn.sendMessage(m.chat, {
@@ -215,8 +215,8 @@ contextInfo: {
 mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
-title: '꧁•⊹٭ＡＮＹＡ ＢＯＴ٭⊹•꧂\nWʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
-//body: 'Wʜᴀᴛꜱᴀᴘᴘ Bᴏᴛ - Mᴜʟᴛɪ Dᴇᴠɪᴄᴇ',
+title: 'ＭＩＺＵＫＩ | ＢＯＴ\nᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ',
+//body: 'ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ',
 thumbnail: img,
 sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u',
 mediaType: 1,
