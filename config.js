@@ -113,7 +113,7 @@ global.saludo = "" + hour;
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.lb = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
+global.lb = 'ＭＩＺＵＫＩ | ＢＯＴ'
 global.vs = '1.5.7'
 global.vsJB = '1.5.0'
 global.yt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
@@ -150,8 +150,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
-global.igfg = '𝙰𝙽𝚈𝙰 | 𝙱𝙾𝚃'
+global.wm = 'ＭＩＺＵＫＩ | ＢＯＴ'
+global.igfg = 'ＭＩＺＵＫＩ | ＢＯＴ'
 global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
@@ -164,8 +164,8 @@ global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.pre
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
 global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
 global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
-global.img = 'https://imgur.com/a/9jkoGzc'
-global.img2 = 'https://imgur.com/a/9jkoGzc'
+global.img = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?pid=ImgGn'
+global.img2 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?pid=ImgGn'
 
 global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, ig, lb, fb, yt]
 global.gataMenu = [img, img2]
