@@ -165,12 +165,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 let listSections = []    
 listSections.push({
 title: '',
-rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para ver todos los comandos\n` }, { header: "SudBot", title: "", id: `.serbot --code`, description: `Para volverte sudbot con código de 8 dígitos 🤖\n` },
-{ header: "Velocidad", title: "", id: `.ping`, description: `Ver velocidad del bot 🎌\n` },
-{ header: "Idioma", title: "", id: `.idioma`, description: `elije tu idioma favorito  🌍\n` },
-{ header: "creador", title: "", id: `.creador`, description: `comunicate con mi creador ⚙️` }
+rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `𝙼𝚞𝚎𝚜𝚝𝚛𝚊𝚖𝚎 𝚝𝚘𝚍𝚘𝚜 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` }, { header: "SudBot", title: "", id: `.serbot --code`, description: `𝚀𝚞𝚒𝚎𝚛𝚘 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚖𝚎 𝚎𝚗 𝚂𝚞𝚍𝙱𝚘𝚝 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+{ header: "Velocidad", title: "", id: `.ping`, description: `𝚅𝚎𝚕𝚘𝚌𝚒𝚍𝚊𝚍 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+{ header: "Idioma", title: "", id: `.idioma`, description: `𝙴𝚕𝚎𝚐𝚒𝚛 𝚒𝚍𝚒𝚘𝚖𝚊\n` },
+{ header: "creador", title: "", id: `.creador`, description: `𝚂𝚝𝚊𝚏𝚏 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝` }
 ]})
-await conn.sendList(m.chat, '\`𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏\`\n*Creador:* 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉\n*Versión:* 1.0.0\n\n💮 si hay algún error puedes contactarme, usa el comando: #owner\n\nGracias¡! 🔴', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
+await conn.sendList(m.chat, '\`╭━━〔  *𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏*  〕━━╮\`\n┃➔ > *𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin\n┃➔ > *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ > *𝘾𝙖𝙣𝙖𝙡 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥:*\n┃➔ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u\n╰━━━━━━━━━━━━━━━━━━━━━━━━━╯', null, `Opciones Mizuki|Bot`, listSections, { mentions: [m.sender]}, {quoted: m})
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
     throw e
