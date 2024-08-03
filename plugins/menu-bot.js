@@ -80,59 +80,77 @@ await conn.sendMessage(m.chat, {
   
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-let menu = `⌜ *${wm}* ⌟  
+let menu = `\`⌜ *ＭＥＮＵ | ＣＯＭＰＬＥＴＯ* ⌟\`
 
-\`╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 ⛅  〕⬣\`
-*┃➤ 👤 Creador : 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉* 
-*┃➤ ᴄᴀɴᴀʟ ᴏꜰᴄ|ᴀɴʏᴀ ʙᴏᴛ: https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
-*┃➤ ⌛ Tiempo activo : #uptime*
- ╰━━━━━━━━━━━━⬣
+\`╭━━〔  *𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓*  〕━━╮\`
+┃➔ > *𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin
+┃➔ > *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0
+┃➔ > *𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:* 74
+┃➔ > *𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤:* #uptime
+┃➔ > *𝘾𝙖𝙣𝙖𝙡 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥:*
+┃➔ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔 🎮 𝐉𝐔𝐄𝐆𝐎𝐒 🎮 〕
-*┃➤ 🕹️ ${usedPrefix}pokedex*
-*┃➤ 🕹️ ${usedPrefix}prostituto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}prostituta <@tag>*
-*┃➤ 🕹️ ${usedPrefix}gay2 <@tag>*
-*┃➤ 🕹️ ${usedPrefix}lesbiana <@tag>*
-*┃➤ 🕹️ ${usedPrefix}pajero <@tag>*
-*┃➤ 🕹️ ${usedPrefix}pajera <@tag>*
-*┃➤ 🕹️ ${usedPrefix}puto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}puta <@tag>*
-*┃➤ 🕹️ ${usedPrefix}manco <@tag>*
-*┃➤ 🕹️ ${usedPrefix}manca <@tag>*
-*┃➤ 🕹️ ${usedPrefix}rata <@tag>*
-*┃➤ 🕹️ ${usedPrefix}negro <@tag>*
-*┃➤ 🕹️ ${usedPrefix}negra <@tag>*
-*┃➤ 🕹️ ${usedPrefix}fea <@tag>*
-*┃➤ 🕹️ ${usedPrefix}feo <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sinpoto <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sintetas <@tag>*
-*┃➤ 🕹️ ${usedPrefix}sinpito <@tag>*
-*┃➤ 🕹️ ${usedPrefix}adoptada <@tag>*
-*┃➤ 🕹️ ${usedPrefix}adoptado <@tag>*
-*┃➤ 🕹️ ${usedPrefix}simisimi*
-*┃➤ 🕹️ ${usedPrefix}pregunta*
-*┃➤ 🕹️ ${usedPrefix}cuando*
-*┃➤ 🕹️ ${usedPrefix}ship5*
-*┃➤ 🕹️ ${usedPrefix}abrazo*
-*┃➤ 🕹️ ${usedPrefix}ship2*
-*┃➤ 🕹️ ${usedPrefix}ruleta*
-*┃➤ 🕹️ ${usedPrefix}zodiac*
-*┃➤ 🕹️ ${usedPrefix}odio*
-*┃➤ 🕹️ ${usedPrefix}ship*
-*┃➤ 🕹️ ${usedPrefix}sorteo*
-*┃➤ 🕹️ ${usedPrefix}minovia*
-*┃➤ 🕹️ ${usedPrefix}minovio*
-*┃➤ 🕹️ ${usedPrefix}kchero*
-*┃➤ 🕹️ ${usedPrefix}kchero*
- ╰━━━━━━━━━━━━
+\`╭━━〔 *𝐀𝐂𝐓𝐈𝐕𝐀𝐑|𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑* 〕━━╮\`
+┃➔ ✅ ${usedPrefix}enable
+┃➔ ❌ ${usedPrefix}disable
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔 ⚙️ 𝐀𝐂𝐓𝐈𝐕𝐀𝐑 𝐎 𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑 ⚙️ 〕
-*┃➤ 🟢 ${usedPrefix}enable*
-*┃➤ 🔴 ${usedPrefix}disable*
- ╰━━━━━━━━━━━━
+\`╭━━〔 *𝐆𝐑𝐔𝐏𝐎𝐒* 〕━━╮\`
+┃➔ 🚫 ${usedPrefix}kick
+┃➔ 🏠 ${usedPrefix}grupo
+┃➔ ⬆️ ${usedPrefix}promote
+┃➔ ⬇️ ${usedPrefix}demote
+┃➔ 🔗 ${usedPrefix}link
+┃➔ 📢 ${usedPrefix}invocar
+┃➔ 👋 ${usedPrefix}setwelcome
+┃➔ 👋 ${usedPrefix}setbye
+┃➔ 🕵️ ${usedPrefix}hidetag
+┃➔ 🏷️ ${usedPrefix}tag
+┃➔ 👻 ${usedPrefix}fantasmas
+┃➔ 👻🚫 ${usedPrefix}kickfantasmas
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
- ╭━〔 🈴 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 🈴 〕
+\`╭━━〔 *𝐉𝐔𝐄𝐆𝐎𝐒* 〕━━╮\`
+┃➔ 📖 ${usedPrefix}pokedex
+┃➔ 👨🏼 ${usedPrefix}prostituto <@tag>
+┃➔ 👩🏼 ${usedPrefix}prostituta <@tag>
+┃➔ 🏳️‍🌈 ${usedPrefix}gay2 <@tag>
+┃➔ 👩‍❤️‍👩 ${usedPrefix}lesbiana <@tag>
+┃➔ 💦 ${usedPrefix}pajero <@tag>
+┃➔ 💦 ${usedPrefix}pajera <@tag>
+┃➔ 😈 ${usedPrefix}puto <@tag>
+┃➔ 💋 ${usedPrefix}puta <@tag>
+┃➔ ✋ ${usedPrefix}manco <@tag>
+┃➔ ✋ ${usedPrefix}manca <@tag>
+┃➔ 🐀 ${usedPrefix}rata <@tag>
+┃➔ 👦🏿 ${usedPrefix}negro <@tag>
+┃➔ 👩🏿‍🦰 ${usedPrefix}negra <@tag>
+┃➔ 🤢 ${usedPrefix}fea <@tag>
+┃➔ 🤢 ${usedPrefix}feo <@tag>
+┃➔ 🍑 ${usedPrefix}sinpoto <@tag>
+┃➔ 🍒 ${usedPrefix}sintetas <@tag>
+┃➔ 🍆 ${usedPrefix}sinpito <@tag>
+┃➔ 👨‍👩‍👧‍👦 ${usedPrefix}adoptada <@tag>
+┃➔ 👨‍👩‍👧‍👦 ${usedPrefix}adoptado <@tag>
+┃➔ 🤖 ${usedPrefix}simisimi
+┃➔ ❓ ${usedPrefix}pregunta
+┃➔ 📅 ${usedPrefix}cuando
+┃➔ 💋 ${usedPrefix}ship5
+┃➔ 🫂 ${usedPrefix}abrazo
+┃➔ 💋 ${usedPrefix}ship2
+┃➔ 🎰 ${usedPrefix}ruleta
+┃➔ ♌ ${usedPrefix}zodiac
+┃➔ 😡 ${usedPrefix}odio
+┃➔ 💋 ${usedPrefix}ship
+┃➔ 🎟️ ${usedPrefix}sorteo
+┃➔ 💑 ${usedPrefix}minovia
+┃➔ 💑 ${usedPrefix}minovio
+┃➔ 😏 ${usedPrefix}kchero
+┃➔ 😎 ${usedPrefix}kchero
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+
+\`╭━━〔 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 〕━━╮\`
 *┃➤ 📥 ${usedPrefix}play*
 *┃➤ 📥 ${usedPrefix}play.1*
 *┃➤ 📥 ${usedPrefix}play2.2*
@@ -152,22 +170,7 @@ let menu = `⌜ *${wm}* ⌟
 *┃➤ 📥 ${usedPrefix}iaimagen*
 *┃➤ 📥 ${usedPrefix}pinteres*
 *┃➤ 📥 ${usedPrefix}igstory*
- ╰━━━━━━━━━━━━
-
- ╭━〔 ❄️ 𝐆𝐑𝐔𝐏𝐎𝐒 ❄️〕
-*┃➤ 👥 ${usedPrefix}kick*
-*┃➤ 👥 ${usedPrefix}grupo*
-*┃➤ 👥 ${usedPrefix}promote*
-*┃➤ 👥 ${usedPrefix}demote*
-*┃➤ 👥 ${usedPrefix}demote*
-*┃➤ 👥 ${usedPrefix}link*
-*┃➤ 👥 ${usedPrefix}invocar*
-*┃➤ 👥 ${usedPrefix}setwelcome*
-*┃➤ 👥 ${usedPrefix}setbye*
-*┃➤ 👥 ${usedPrefix}hidetag*
-*┃➤ 👥 ${usedPrefix}fantasmas*
-*┃➤ 👥 ${usedPrefix}kickfantasmas*
- ╰━━━━━━━━━━━━
+╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
 
  ╭━〔 ✨ 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 ✨  〕*
 *┃➤ 🔍 ${usedPrefix}xnxxsearch*
@@ -203,11 +206,9 @@ let menu = `⌜ *${wm}* ⌟
 *┃➤ ☁️ ${usedPrefix}emojimix*
 *┃➤ ☁️ ${usedPrefix}attp*
 *┃➤ ☁️ ${usedPrefix}qc*
- ╰━━━━━━━━━━━━
-
-🏳️ By 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉`.trim()
+ ╰━━━━━━━━━━━━`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://imgur.com/a/9jkoGzc`)).buffer()  
+let img = await (await fetch(`https://tse4.mm.bing.net/th?id=OIG3.cLOJAQj8neUVXa2OXGEU&pid=ImgGn`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
