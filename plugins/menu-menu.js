@@ -170,7 +170,7 @@ rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `Para 
 { header: "Idioma", title: "", id: `.idioma`, description: `elije tu idioma favorito  🌍\n` },
 { header: "creador", title: "", id: `.creador`, description: `comunicate con mi creador ⚙️` }
 ]})
-await conn.sendList(m.chat, '👋🏻 Hola¡! Bienvenido A Mi Sub Menú\n\n*Creador:* 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉\n*Versión:* 1.0.0\n\n💮 si hay algún error puedes contactarme, usa el comando: #owner\n\nGracias¡! 🔴', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
+await conn.sendList(m.chat, '\`𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏\`\n*Creador:* 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉\n*Versión:* 1.0.0\n\n💮 si hay algún error puedes contactarme, usa el comando: #owner\n\nGracias¡! 🔴', null, `Clik`, listSections, { mentions: [m.sender]}, {quoted: m})
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
     throw e
