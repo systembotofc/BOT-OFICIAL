@@ -49,7 +49,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
           externalAdReply: {
             showAdAttribution: false,
             title: 'ＭＩＺＵＫＩ | ＢＯＴ',
-            body: ``,
+            body: `ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ`,
             mediaType: 2,
             sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u', // Enlace actualizado
             thumbnail: imagen1
