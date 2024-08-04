@@ -13,12 +13,12 @@ if (/webp|image|video/g.test(mime)) {
 if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return m.reply(`*EL VIDEO NO PUEDE DURA MAS DE 7 SEGUNDOS*`)
 let img = await q.download?.()
 
-if (!img) throw `uso del comando incorrecto responde una imagen u video con ${usedPrefix + command}`
+if (!img) throw `> 🏴𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘢 𝘶𝘯𝘢 𝘪𝘮𝘢𝘨𝘦𝘯 𝘤𝘰𝘯 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰 [.𝘴𝘵𝘪𝘤𝘬𝘦𝘳]`
 
 let out
 try {
 stiker = await sticker(img, false, global.packname, global.author)
-await conn.reply(m.chat, `> creando tu sticker espere un momento..`, m, fake,)
+await conn.reply(m.chat, `> 🏴𝘔𝘪𝘻𝘶𝘬𝘪 | 𝘉𝘰𝘵 𝘦𝘴𝘵á 𝘤𝘳𝘦𝘢𝘯𝘥𝘰 𝘵𝘶 𝘴𝘵𝘪𝘤𝘬𝘦𝘳, 𝘦𝘴𝘱𝘦𝘳𝘢 𝘶𝘯 𝘮𝘰𝘮𝘦𝘯𝘵𝘰.`, m,|)
 } catch (e) {
 console.error(e)
 } finally {
@@ -41,7 +41,7 @@ if (!stiker) stiker = e
 } finally {
 if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: ``, mediaType: 2, sourceUrl: [nna, nn, md, yt].getRandom(), thumbnail: imagen1}}}, { quoted: m })
 
-else throw `lo uso mal responde a una imagen u video con *${usedPrefix + command}*`
+else throw `> 🏴𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘢 𝘶𝘯𝘢 𝘪𝘮𝘢𝘨𝘦𝘯 𝘤𝘰𝘯 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰 [.𝘴𝘵𝘪𝘤𝘬𝘦𝘳]`
 
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
