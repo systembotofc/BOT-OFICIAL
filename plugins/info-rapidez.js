@@ -20,18 +20,11 @@ let chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
 
 
-let texto = `*🚀 𝐕𝐞𝐥𝐨𝐜𝐢𝐝𝐚𝐝*
-• ${latensi.toFixed(4)}
+let texto = `*\`VELOCIDAD MIZUKI | BOT:\`*
+> 🚀 ${latensi.toFixed(4)}
 
-*⏰ 𝐀𝐜𝐭𝐢𝐯𝐢𝐝𝐚𝐝*
-• ${muptime}
-
-*💌 𝐂𝐡𝐚𝐭𝐬*
-• ${chats.length} *Chats privados*
-• ${groups.length} *Grupos*
-
-*💻 𝐒𝐞𝐫𝐯𝐢𝐝𝐨𝐫*
-• *Ram:* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+*\`DATOS DEL SERVIDOR HOST\`*
+> ✅𝙍𝙖𝙢: Ilimitado`.trim()
 
 conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'SHANA-BOT', thumbnailUrl: 'https://telegra.ph/file/bc6464a25b50bf28bfa49.png', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
