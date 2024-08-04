@@ -28,7 +28,7 @@ await conn.sendMessage(m.chat, {text: estado, mentions: [m.sender]}, {quoted: fk
 }
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|uptime|status|estate|state|stado|stats|botstat(us)?)$/i
+handler.command = /^(estado|status|estate|state|stado|stats|botstat(us)?)$/i
 export default handler
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
