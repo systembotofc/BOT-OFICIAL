@@ -1,7 +1,7 @@
 import translate from '@vitalets/google-translate-api'
 import fetch from "node-fetch"
 let handler = async (m, { text, command, args, usedPrefix }) => {
-  if (!text) throw `\`🏴 𝚄𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚙𝚎𝚛𝚘 𝚊𝚌𝚘𝚖𝚙𝚊ñ𝚊𝚍𝚘 𝚍𝚎 𝚞𝚗 𝚝𝚎𝚡𝚝𝚘.\`\n\n> ᴄᴀɴᴀʟ ᴏꜰᴄ|ᴀɴʏᴀ ʙᴏᴛ\nhttps://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u`
+  if (!text) throw `> 🏴 𝚄𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚗𝚞𝚎𝚟𝚊𝚖𝚎𝚗𝚝𝚎 𝚙𝚎𝚛𝚘 𝚊𝚌𝚘𝚖𝚙𝚊ñ𝚊𝚍𝚘 𝚍𝚎 𝚞𝚗 𝚝𝚎𝚡𝚝𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚙𝚞𝚎𝚍𝚊𝚜 𝚑𝚊𝚋𝚕𝚊𝚛 𝚌𝚘𝚗 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝`
   try {
   await conn.sendPresenceUpdate('composing', m.chat)
   let api = await fetch("https://api.simsimi.net/v2/?text=" + text + "&lc=es")
