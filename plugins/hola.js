@@ -10,7 +10,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-   conn.reply(m.chat, `Hola @${m.sender.split`@`[0]}, espero que tengas un lindo día o noche\n\n*He estado activa durante :* ${muptime}`, m)
+   conn.reply(m.chat, `*\`𝐔𝐏𝐓𝐈𝐌𝐄 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓:\`*\n> ⏰ ${uptime}` },`, m)
 }
 handler.help = ['runtime']
 handler.tags = ['main']
