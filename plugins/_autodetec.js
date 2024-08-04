@@ -16,22 +16,22 @@ export async function before(m, {conn}) {
   if (m.messageStubType == 21) {
     await this.sendMessage(
       m.chat,
-      {text: `_.🎌${usuario} Cambio el nombre  del grupo a :_\n\n_${m.messageStubParameters[0]}_`, mentions: [m.sender]},
+      {text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤:* ${usuario}\n┃➔ *✅𝘿𝙚𝙩𝙚𝙘𝙩:* Cambió el nombre de este grupo.\n┃➔ *❗𝙉𝙪𝙚𝙫𝙤:* ${m.messageStubParameters[0]}\n╰━━━━━━━━━━━━━━━╯`, mentions: [m.sender]},
       {quoted: fkontak}
     );
   } else if (m.messageStubType == 22) {
-    await this.sendMessage(m.chat, {text: `_.🎌${usuario} Cambio la foto del grupo_`, mentions: [m.sender]}, {quoted: fkontak});
+    await this.sendMessage(m.chat, {text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤:* ${usuario}\n┃➔ *✅𝘿𝙚𝙩𝙚𝙘𝙩:* Cambió la foto de este grupo.\n╰━━━━━━━━━━━━━━━╯`, mentions: [m.sender]}, {quoted: fkontak});
   } else if (m.messageStubType == 24) {
     await this.sendMessage(
       m.chat,
-      {text: `_.🎌${usuario} La nueva descripción del grupo es :_\n\n_${m.messageStubParameters[0]}_`, mentions: [m.sender]},
+      {text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤:* ${usuario}\n┃➔ *✅𝘿𝙚𝙩𝙚𝙘𝙩:* Cambió la descripción de este grupo.\n┃➔ *❗𝙉𝙪𝙚𝙫𝙤:* ${m.messageStubParameters[0]}\n╰━━━━━━━━━━━━━━━╯`, mentions: [m.sender]},
       {quoted: fkontak}
     );
   } else if (m.messageStubType == 25) {
     await this.sendMessage(
       m.chat,
       {
-        text: `_.🎌Ahora_ _${m.messageStubParameters[0] == "on" ? "SOLO LOS ADMINISTRADORES" : "MIEMBROS"}_ _pueden editar la info del grupo_`,
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *✅𝘿𝙚𝙩𝙚𝙘𝙩:* Ahora ${m.messageStubParameters[0] == "on" ? "solo los administradores" : "todos los miembros"} de este grupo, pueden editar la información de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [m.sender],
       },
       {quoted: fkontak}
@@ -40,9 +40,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `_.🎌Grupo_ _${m.messageStubParameters[0] == "on" ? "Cerrado 🔒" : "Abierto 🔓"}_\n ${
-          m.messageStubParameters[0] == "on" ? "_.🎌Solo los administradores pueden escribir_" : "_. 🎌Ya pueden escribir todos_"
-        } En este grupo`,
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Grupo ${m.messageStubParameters[0] == "on" ? "Cerrado 🔒" : "Abierto 🔓"}\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ${m.messageStubParameters[0] == "on" ? "Solo los administradores pueden escribir" : "_. Ya pueden escribir todos" } en este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [m.sender],
       },
       {quoted: fkontak}
@@ -51,7 +49,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `_.🎌@${m.messageStubParameters[0].split`@`[0]}Es admin del grupo_\n\n_. 🎌Le dio admin :_  _${usuario}_`,
+        text: `\╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Ascendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en admin de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`],
       },
       {quoted: fkontak}
@@ -60,7 +58,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `._🎌@${m.messageStubParameters[0].split`@`[0]} Ya no es admin_\n\n._ 🎌Le quito admin :_ _${usuario}_`,
+        text: `\╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Descendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en miembro de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`],
       },
       {quoted: fkontak}
@@ -68,11 +66,11 @@ export async function before(m, {conn}) {
   } else if (m.messageStubType == 72) {
     await this.sendMessage(
       m.chat,
-      {text: `_.🎌${usuario} Cambio la duracion de los mensajes a :_ _@${m.messageStubParameters[0]}_`, mentions: [m.sender]},
+      {text: `*\╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Cambió la duración de los mensajes de este grupo.\n┃➔ ❗𝙉𝙪𝙚𝙫𝙤: @${m.messageStubParameters[0]}\n╰━━━━━━━━━━━━━━━╯`, mentions: [m.sender]},
       {quoted: fkontak}
     );
   } else if (m.messageStubType == 123) {
-    await this.sendMessage(m.chat, {text: `._ ᩭ✎${usuario} Desactivo los mensajes temporales._`, mentions: [m.sender]}, {quoted: fkontak});
+    await this.sendMessage(m.chat, {text: `*\╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Desactivó los mensajes temporales de este grupo.\n╰━━━━━━━━━━━━━━━╯`, mentions: [m.sender]}, {quoted: fkontak});
   } else {
     console.log({
       messageStubType: m.messageStubType,
