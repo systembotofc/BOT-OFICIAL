@@ -80,23 +80,21 @@ await conn.sendMessage(m.chat, {
   
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-let menu = `\`⌜ *ＭＥＮＵ | ＣＯＭＰＬＥＴＯ* ⌟\`
+let menu = `*\`⌜ ＭＥＮＵ | ＣＯＭＰＬＥＴＯ ⌟\`*
 
-\`╭━━〔  *𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓*  〕━━╮\`
-┃➔ > *𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin
-┃➔ > *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0
-┃➔ > *𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:* 74
-┃➔ > *𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤:* #uptime
-┃➔ > *𝘾𝙖𝙣𝙖𝙡 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥:*
-┃➔ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+*\`╭━〔  𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓  〕━╮\`*
+┃➔ *👑𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin
+┃➔ *☑𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0
+┃➔ *🏴𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:* 74
+┃➔ *⏰𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤:* ${uptime}
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐀𝐂𝐓𝐈𝐕𝐀𝐑|𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑* 〕━━╮\`
+*\`╭━〔 𝐀𝐂𝐓𝐈𝐕𝐀𝐑|𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐑 〕━╮\`*
 ┃➔ ✅ ${usedPrefix}enable
 ┃➔ ❌ ${usedPrefix}disable
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐆𝐑𝐔𝐏𝐎𝐒* 〕━━╮\`
+*\`╭━〔 *𝐆𝐑𝐔𝐏𝐎𝐒* 〕━╮\`*
 ┃➔ 🚫 ${usedPrefix}kick
 ┃➔ 🏠 ${usedPrefix}grupo
 ┃➔ ⬆️ ${usedPrefix}promote
@@ -109,9 +107,9 @@ let menu = `\`⌜ *ＭＥＮＵ | ＣＯＭＰＬＥＴＯ* ⌟\`
 ┃➔ 🏷️ ${usedPrefix}tag
 ┃➔ 👻 ${usedPrefix}fantasmas
 ┃➔ 👻🚫 ${usedPrefix}kickfantasmas
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐉𝐔𝐄𝐆𝐎𝐒* 〕━━╮\`
+*\`╭━━〔 𝐉𝐔𝐄𝐆𝐎𝐒 〕━━╮\`*
 ┃➔ 📖 ${usedPrefix}pokedex
 ┃➔ 👨🏼 ${usedPrefix}prostituto <@tag>
 ┃➔ 👩🏼 ${usedPrefix}prostituta <@tag>
@@ -148,65 +146,65 @@ let menu = `\`⌜ *ＭＥＮＵ | ＣＯＭＰＬＥＴＯ* ⌟\`
 ┃➔ 💑 ${usedPrefix}minovio
 ┃➔ 😏 ${usedPrefix}kchero
 ┃➔ 😎 ${usedPrefix}kchero
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒* 〕━━╮\`
-┃➔ ▶️ ${usedPrefix}play*
-┃➔ ▶️ ${usedPrefix}play.1*
-┃➔ ▶️ ${usedPrefix}play2.2*
-┃➔ 🎮 ${usedPrefix}ytv.2*
-┃➔ 🎮 ${usedPrefix}yta.2*
-┃➔ 🎧 ${usedPrefix}playlist*
-┃➔ 🎧 ${usedPrefix}spotify*
-┃➔ 🎧 ${usedPrefix}spotifydl*
-┃➔ 🎤 ${usedPrefix}tiktok*
-┃➔ 🎤 ${usedPrefix}instagram*
-┃➔ 🎤 ${usedPrefix}mediafire*
-┃➔ 🎤 ${usedPrefix}gdrive*
-┃➔ 🎤 ${usedPrefix}twitter*
-┃➔ 🎮 ${usedPrefix}yta*
-┃➔ 🎮 ${usedPrefix}ytv*
-┃➔ 🎮 ${usedPrefix}imagen*
-┃➔ ⏯️ ${usedPrefix}iaimagen*
-┃➔ ⏯️ ${usedPrefix}pinteres*
-┃➔ 🎧 ${usedPrefix}igstory*
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+*\`╭━〔 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 〕━╮\`*
+┃➔ ▶️ ${usedPrefix}play
+┃➔ ▶️ ${usedPrefix}play.1
+┃➔ ▶️ ${usedPrefix}play2.2
+┃➔ 🎮 ${usedPrefix}ytv.2
+┃➔ 🎮 ${usedPrefix}yta.2
+┃➔ 🎧 ${usedPrefix}playlist
+┃➔ 🎧 ${usedPrefix}spotify
+┃➔ 🎧 ${usedPrefix}spotifydl
+┃➔ 🎤 ${usedPrefix}tiktok
+┃➔ 🎤 ${usedPrefix}instagram
+┃➔ 🎤 ${usedPrefix}mediafire
+┃➔ 🎤 ${usedPrefix}gdrive
+┃➔ 🎤 ${usedPrefix}twitter
+┃➔ 🎮 ${usedPrefix}yta
+┃➔ 🎮 ${usedPrefix}ytv
+┃➔ 🎮 ${usedPrefix}imagen
+┃➔ ⏯️ ${usedPrefix}iaimagen
+┃➔ ⏯️ ${usedPrefix}pinteres
+┃➔ 🎧 ${usedPrefix}igstory
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒* 〕━━╮\`
-┃➔ 🕵️‍♂️ ${usedPrefix}xnxxsearch*
-┃➔ 📂 ${usedPrefix}tiktoksearch*
-┃➔ 🌐 ${usedPrefix}google*
-┃➔ 🔎 ${usedPrefix}letra*
-┃➔ 🗂️ ${usedPrefix}wikipedia*
-┃➔ 🌐 ${usedPrefix}ytsearch*
-┃➔ 🕵️‍♂️ ${usedPrefix}playstore*
-┃➔ 🔎 ${usedPrefix}mercadolibre*
-┃➔ 📂 ${usedPrefix}pornhubsearch*
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+*\`╭━〔 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 〕━╮\`*
+┃➔ 🕵️‍♂️ ${usedPrefix}xnxxsearch
+┃➔ 📂 ${usedPrefix}tiktoksearch
+┃➔ 🌐 ${usedPrefix}google
+┃➔ 🔎 ${usedPrefix}letra
+┃➔ 🗂️ ${usedPrefix}wikipedia
+┃➔ 🌐 ${usedPrefix}ytsearch
+┃➔ 🕵️‍♂️ ${usedPrefix}playstore
+┃➔ 🔎 ${usedPrefix}mercadolibre
+┃➔ 📂 ${usedPrefix}pornhubsearch
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒* 〕━━╮\`
-┃➔ 🔇 ${usedPrefix}mute*
-┃➔ 🎷 ${usedPrefix}trad*
-┃➔ 🧮 ${usedPrefix}calc*
-┃➔ 🗑️ ${usedPrefix}del*
-┃➔ 🎶 ${usedPrefix}whatmusic*
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+*\`╭━〔 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 〕━╮\`*
+┃➔ 🔇 ${usedPrefix}mute
+┃➔ 🎷 ${usedPrefix}trad
+┃➔ 🧮 ${usedPrefix}calc
+┃➔ 🗑️ ${usedPrefix}del
+┃➔ 🎶 ${usedPrefix}whatmusic
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒* 〕━━╮\`
-┃➔ 🔫 ${usedPrefix}crimen*
-┃➔ 📝 ${usedPrefix}reg*
-┃➔ ⛏️ ${usedPrefix}minar*
-┃➔ 🪓 ${usedPrefix}buy*
-┃➔ 💎 ${usedPrefix}work*
-┃➔ 🏗️ ${usedPrefix}mendigar*
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯
+*\`╭━〔 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒 〕━╮\`*
+┃➔ 🔫 ${usedPrefix}crimen
+┃➔ 📝 ${usedPrefix}reg
+┃➔ ⛏️ ${usedPrefix}minar
+┃➔ 🪓 ${usedPrefix}buy
+┃➔ 💎 ${usedPrefix}work
+┃➔ 🏗️ ${usedPrefix}mendigar
+╰━━━━━━━━━━━━━━━━━━━╯
 
-\`╭━━〔 *𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒* 〕━━╮\`
-┃➔ 🛠️ ${usedPrefix}s*
-┃➔ 🏷️ ${usedPrefix}emojimix*
-┃➔ ⚙️ ${usedPrefix}attp*
-┃➔ 🔩 ${usedPrefix}qc*
-╰━━━━━━━━━━━━━━━━━━━━━━━━━╯`.trim()
+*\`╭━━〔 𝐒𝐓𝐈𝐂𝐊𝐄𝐑𝐒 〕━━╮\`*
+┃➔ 🛠️ ${usedPrefix}s
+┃➔ 🏷️ ${usedPrefix}emojimix
+┃➔ ⚙️ ${usedPrefix}attp
+┃➔ 🔩 ${usedPrefix}qc
+╰━━━━━━━━━━━━━━━━━━━╯`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
 let img = await (await fetch(`https://tse4.mm.bing.net/th?id=OIG3.cLOJAQj8neUVXa2OXGEU&pid=ImgGn`)).buffer()  
 await conn.sendMessage(m.chat, {
