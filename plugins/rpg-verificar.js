@@ -23,19 +23,18 @@ global.db.data.users[m.sender].limit += 50
 global.db.data.users[m.sender].exp += 500
 global.db.data.users[m.sender].joincount += 20
   let sn = createHash('md5').update(m.sender).digest('hex')
-  await conn.reply(m.chat,  ` 乂  R E G I S T R O  乂
+  await conn.reply(m.chat,  `*\`ＢＡＳＥ ＤＥ ＤＡＴＯＳ\`*
 
-• Usuario: ${name}
+*\`╭━〔 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐎 〕━╮\`*
+┃➔ *𝙐𝙨𝙪𝙖𝙧𝙞𝙤:* ${name}
+┃➔ *𝙀𝙙𝙖𝙙:* ${age} años
+╰━━━━━━━━━━━━━━━━━╯
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-• Edas: ${age} 𝖠𝗇̃𝗈𝗌
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-🚩 *Recompensas Por El Registro:*
-• 50 Diamantes 💎
-• 900 IgnaCoins 💰
-• 500 Experiencia 💸
-• 20 Tokens 🪙
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Usuarios Registrados: ${rtotalreg}`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '> 乂  R E G I S T R O  乂',  body: 'Registro exitoso 📝: By Igna • Bot', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: [md, nn, nna, fb].getRandom()}}})
+*\`╭━〔 𝐑𝐄𝐍𝐂𝐎𝐌𝐏𝐄𝐍𝐒𝐀𝐒: 〕━╮\`*
+┃➔ 450 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 📚
+┃➔ 25 𝙏𝙤𝙠𝙚𝙣𝙨 🏴
+┃➔ 60 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 💎
+╰━━━━━━━━━━━━━━━━━╯`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: 'ＭＩＺＵＫＩ | ＢＯＴ',  body: 'ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ', previewType: 0, thumbnail: gataImg.getRandom(), sourceUrl: [md, nn, nna, fb].getRandom()}}})
 await m.reply(`${sn}`)}
 handler.help = ['daftar', 'register'].map(v => v + ' <nama>.<umur>')
 handler.tags = ['xp']
