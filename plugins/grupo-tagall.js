@@ -10,7 +10,7 @@ const oi = `${pesan}\n> ✅𝙏𝙊𝙏𝘼𝙇 𝘿𝙀 𝙐𝙎𝙐𝘼𝙍�
   for (const mem of participants) {
     teks += `┣・🦩 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `┗・𝐂𝐀𝐍𝐀𝐋 𝐎𝐅𝐈𝐂𝐈𝐀𝐋: https://bit.ly/3WQBnJY`;
+  teks += `┗・ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
