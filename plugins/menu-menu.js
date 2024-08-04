@@ -155,22 +155,22 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let pp = 'https://imgur.com/a/9jkoGzc'
-    let pp2 = 'https://imgur.com/a/9jkoGzc'
-    let pp3 = 'https://imgur.com/a/9jkoGzc'
-    let pp4 = 'https://imgur.com/a/9jkoGzc'
+    let pp = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
+    let pp2 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
+    let pp3 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
+    let pp4 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
     m.react('✅')
    
   //  conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
 let listSections = []    
 listSections.push({
 title: '',
-rows: [{ header: "Menu Completo", title: "", id: `.allmenu`, description: `𝙼𝚞𝚎𝚜𝚝𝚛𝚊𝚖𝚎 𝚝𝚘𝚍𝚘𝚜 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` }, { header: "SudBot", title: "", id: `.serbot --code`, description: `𝚀𝚞𝚒𝚎𝚛𝚘 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚖𝚎 𝚎𝚗 𝚂𝚞𝚍𝙱𝚘𝚝 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
-{ header: "Velocidad", title: "", id: `.ping`, description: `𝚅𝚎𝚕𝚘𝚌𝚒𝚍𝚊𝚍 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
-{ header: "Idioma", title: "", id: `.idioma`, description: `𝙴𝚕𝚎𝚐𝚒𝚛 𝚒𝚍𝚒𝚘𝚖𝚊\n` },
-{ header: "creador", title: "", id: `.creador`, description: `𝚂𝚝𝚊𝚏𝚏 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝` }
+rows: [{ header: "📚ＭＥＮＵ ＣＯＭＰＬＥＴＯ", title: "", id: `.allmenu`, description: `𝙼𝚞𝚎𝚜𝚝𝚛𝚊𝚖𝚎 𝚝𝚘𝚍𝚘𝚜 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` }, { header: "SudBot", title: "", id: `.serbot --code`, description: `𝚀𝚞𝚒𝚎𝚛𝚘 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚖𝚎 𝚎𝚗 𝚂𝚞𝚍𝙱𝚘𝚝 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+{ header: "🚀ＶＥＬＯＣＩＤＡＤ", title: "", id: `.ping`, description: `𝚅𝚎𝚕𝚘𝚌𝚒𝚍𝚊𝚍 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+{ header: "🌐ＩＤＩＯＭＡ", title: "", id: `.idioma`, description: `𝙴𝚕𝚎𝚐𝚒𝚛 𝚒𝚍𝚒𝚘𝚖𝚊\n` },
+{ header: "✅ＳＴＡＦＦ ＭＩＺＵＫＩ | ＢＯＴ", title: "", id: `.creador`, description: `𝚂𝚝𝚊𝚏𝚏 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝` }
 ]})
-await conn.sendList(m.chat, '\`╭━━〔  *𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏*  〕━━╮\`\n┃➔ > *𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin\n┃➔ > *𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ > *𝘾𝙖𝙣𝙖𝙡 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥:*\n┃➔ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u\n╰━━━━━━━━━━━━━━━━━━━━━━━━━╯', null, `Opciones Mizuki|Bot`, listSections, { mentions: [m.sender]}, {quoted: m})
+await conn.sendList(m.chat, '*\`╭━〔  𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏  〕━╮\`*\n┃➔ *👑𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧:* Benjamin\n┃➔ *☑𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ *🏴𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:* 74\n┃➔ *⏰𝙏𝙞𝙚𝙢𝙥𝙤 𝙖𝙘𝙩𝙞𝙫𝙤:* ${uptime}\n┃➔ > *𝘾𝙖𝙣𝙖𝙡 𝙙𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥:*\n┃➔ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u\n╰━━━━━━━━━━━━━━━━━━━━╯', null, `𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝙈𝙄𝙕𝙐𝙆𝙄 | 𝘽𝙊𝙏`, listSections, { mentions: [m.sender]}, {quoted: m})
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
     throw e
