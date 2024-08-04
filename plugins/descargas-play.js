@@ -13,8 +13,8 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split(" ")
    // if (!lister.includes(feature)) return conn.reply(m.chat, `*🚩 Ingresa el formato en que deseas descargar más el titulo de un video o musica de YouTube.*\n\nEjemplo : ${usedPrefix + command} *mp3* SUICIDAL-IDOL - ecstacy\n\nFormatos disponibles :\n${usedPrefix + command} *mp3*\n${usedPrefix + command} *mp3doc*\n${usedPrefix + command} *mp4*\n${usedPrefix + command} *mp4doc*`,  m, fake,)
 	  if (command == "play" || command == 'play2') {
-            if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`,  m, fake,)
-    await m.react('🕓')
+            if (!text) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`,  m, fake,)
+    await m.react('🎵')
     var res = await yts(text)
     var vid = res.videos[0]
     var q = '128kbps'
