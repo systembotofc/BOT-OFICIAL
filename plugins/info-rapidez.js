@@ -26,7 +26,7 @@ let texto = `*\`𝐕𝐄𝐋𝐎𝐂𝐈𝐃𝐀𝐃 𝐌𝐈𝐙𝐔𝐊𝐈 | 
 *\`𝐃𝐀𝐓𝐎𝐒 𝐃𝐄𝐋 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑 𝐇𝐎𝐒𝐓:\`*
 > ✅𝙍𝙖𝙢: Ilimitado`.trim()
 
-conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'SHANA-BOT', thumbnailUrl: 'https://telegra.ph/file/bc6464a25b50bf28bfa49.png', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
+conn.sendMessage(m.chat, { text: texto, contextInfo: { externalAdReply: { title: '', body: 'ＭＩＺＵＫＩ | ＢＯＴ', thumbnailUrl: 'https://tse4.mm.bing.net/th?id=OIG3.cLOJAQj8neUVXa2OXGEU&pid=ImgGn', sourceUrl: '', mediaType: 1, renderLargerThumbnail: true }}})
 
 }
 handler.help = ['ping']
