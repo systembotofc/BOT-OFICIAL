@@ -21,13 +21,13 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
 const texto1 = `*\`╭━〔 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🏴𝑻𝒊𝒕𝒖𝒍𝒐:* ${vid.title}\n┃➔ *👤𝑨𝒖𝒕𝒐𝒓:* ${vid.author.name}\n┃➔ *⏰𝑫𝒖𝒓𝒂𝒄𝒊𝒐𝒏:* ${vid.timestamp}\n┃➔ *👀𝑽𝒊𝒔𝒊𝒕𝒂𝒔:* ${vid.views}\n┃➔ *🗓𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐:* ${vid.ago}\n┃➔ *❗𝑼𝒓𝒍:* ${'https://youtu.be/' + vid.videoId}\n╰━━━━━━━━━━━━╯`.trim()
 		
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
-	['🎧Descargar Audios', `${usedPrefix}mp3 ${text}`],
-	['🎥Descargar Video', `${usedPrefix}mp4 ${text}`]
-  ], null, [['Canal', `${md}`]], m)
+	['🎧𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑 𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}mp3 ${text}`],
+	['🎥𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑 𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}mp4 ${text}`]
+  ], null, [['𝐂𝐀𝐍𝐀𝐋 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓', `${md}`]], m)
 	  }
   
             if (command == "mp3") {
-	 if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`, m, fake,)
+	 if (!text) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`, m)
 		
        try {
     const res = await yts(text)
@@ -76,18 +76,12 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
     }
         
         if (command == "mp4") {
-            if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`, m, fake,)
+            if (!text) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`, m)
     await m.react('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '360p'
-	const texto1 = `Y O U T U B E 乂 M U S I C\n
-	✩ *Título ∙* ${vid.title}\n
-        ✩ *Duración ∙* ${vid.timestamp}\n
-        ✩ *Visitas ∙* ${vid.views}\n
-        ✩ *Autor ∙* ${vid.author.name}\n
-        ✩ *Publicado ∙* ${vid.ago}\n
-        ✩ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`
+	const texto1 = `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`
 	/*
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
@@ -101,7 +95,7 @@ await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`,  m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━━━●────── ${vid.timestamp}`, m)
+       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, m)
        await m.react('✅')
        } catch {
        try {
@@ -111,7 +105,7 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas 
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━━━●────── ${vid.timestamp}`, m)
+       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, m)
        await m.react('✅')
        } catch (error) {
         await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*`, m).then(_ => m.react('✖️'))
@@ -119,18 +113,12 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas 
     }}}
     
     if (command == "mp3doc") {
-            if (!inputs) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`,  m, fake,)
+            if (!inputs) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`,  m)
     await m.react('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '128kbps'
-	const texto1 = `Y O U T U B E 乂 D O C\n
-       ✩ *Título ∙* ${vid.title}\n
-       ✩ *Duración ∙* ${vid.timestamp}\n
-       ✩ *Visitas ∙* ${vid.views}\n
-       ✩ *Autor ∙* ${vid.author.name}\n
-       ✩ *Publicado ∙* ${vid.ago}\n
-       ✩ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`
+	const texto1 = `*\`╭━〔 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🏴𝑻𝒊𝒕𝒖𝒍𝒐:* ${vid.title}\n┃➔ *👤𝑨𝒖𝒕𝒐𝒓:* ${vid.author.name}\n┃➔ *⏰𝑫𝒖𝒓𝒂𝒄𝒊𝒐𝒏:* ${vid.timestamp}\n┃➔ *👀𝑽𝒊𝒔𝒊𝒕𝒂𝒔:* ${vid.views}\n┃➔ *🗓𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐:* ${vid.ago}\n┃➔ *❗𝑼𝒓𝒍:* ${'https://youtu.be/' + vid.videoId}\n╰━━━━━━━━━━━━╯`
 	   /* 
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
@@ -180,18 +168,12 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
     }}}
     
     if (command == "mp4doc") {
-            if (!inputs) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`, m)
+            if (!inputs) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`, m)
     await m.react('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '360p'
-	const texto1 = `Y O U T U B E 乂 M U S I C\n
-	✩ *Título ∙* ${vid.title}\n
-        ✩ *Duración ∙* ${vid.timestamp}\n
-        ✩ *Visitas ∙* ${vid.views}\n
-        ✩ *Autor ∙* ${vid.author.name}\n
-        ✩ *Publicado ∙* ${vid.ago}\n
-        ✩ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`
+	const texto1 = `*\`╭━〔 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ *🏴𝑻𝒊𝒕𝒖𝒍𝒐:* ${vid.title}\n┃➔ *👤𝑨𝒖𝒕𝒐𝒓:* ${vid.author.name}\n┃➔ *⏰𝑫𝒖𝒓𝒂𝒄𝒊𝒐𝒏:* ${vid.timestamp}\n┃➔ *👀𝑽𝒊𝒔𝒊𝒕𝒂𝒔:* ${vid.views}\n┃➔ *🗓𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐:* ${vid.ago}\n┃➔ *❗𝑼𝒓𝒍:* ${'https://youtu.be/' + vid.videoId}\n╰━━━━━━━━━━━━╯`
 	    /*
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
@@ -206,7 +188,7 @@ await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`,  m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendMessage(m.chat, { document: { url: dl_url }, caption: `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━●────── ${vid.timestamp}`, mimetype: 'video/mp4', fileName: `${vid.title}` + `.mp4`, quoted: m, contextInfo: {
+       await conn.sendMessage(m.chat, { document: { url: dl_url }, caption: `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, mimetype: 'video/mp4', fileName: `${vid.title}` + `.mp4`, quoted: m, contextInfo: {
 'forwardingScore': 200,
 'isForwarded': true,
 externalAdReply:{
@@ -225,7 +207,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`,  m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendMessage(m.chat, { document: { url: dl_url }, caption: `${vid.title}\n⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻\n00:15 ━━●────── ${vid.timestamp}`, mimetype: 'video/mp4', fileName: `${vid.title}` + `.mp4`, quoted: m, contextInfo: {
+       await conn.sendMessage(m.chat, { document: { url: dl_url }, caption: `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, mimetype: 'video/mp4', fileName: `${vid.title}` + `.mp4`, quoted: m, contextInfo: {
 'forwardingScore': 200,
 'isForwarded': true,
 externalAdReply:{
