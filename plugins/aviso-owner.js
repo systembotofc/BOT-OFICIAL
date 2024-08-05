@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command, paypal }) => {
-conn.sendMessage(m.chat, {text:'*AVISO: Yo "Benja", he tomado la decisión de retirarme de todo lo relacionado con el bot o temas similares,por el motivó de algunos problema familiares y que por ahora no me encuentro apto para seguir continuando esto quiere decir, que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar, Agradezco su preferencia durante el recorrido por este mundo de los bots.*\n\n*MonkiBot pasa a quedar en manos de colaboradores, y como principal representante, @sopiix*\n\n*agradecer a amigos que siempre estuvieron apoyando a este lindo proyecto , pero es hora de decir adios 👋🏼*'},  { quoted: m })
+conn.sendMessage(m.chat, {text:'╭━━━━━━━━━━━━━━━━\n⣿ ‎ `✵•.¸,✵°✵.｡𝓥𝓔𝓡𝓢𝓤𝓢｡.✵°✵,¸.•✵´\n⣿ `✵•.¸,✵°✵.｡𝓞𝓕𝓘𝓒𝓘𝓐𝓛｡.✵°✵,¸.•✵´\n⣿‎ ‎ • --------------- • --------------- •\n⣿‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎🎊 𝑴𝒐𝒅𝒐: Vv2 ♀\n⣿‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎⏰𝑯𝒐𝒓𝒂𝒓𝒊𝒐𝒔: 22🇦🇷‎ |‎ ‎‎00🇵🇪\n⣿‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎💗𝑬𝒏𝒄𝒂𝒓𝒈𝒂𝒅𝒂:\n⣿‎ ‎ • --------------- • --------------- •\n⣿‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎👩🏼𝑱𝒖𝒈𝒂𝒅𝒐𝒓𝒂𝒔:\n⣿‎ ‎ ‎• 🍒\n⣿‎ ‎ ‎• 🍒\n⣿‎ ‎ ‎• 🍒\n⣿‎ ‎ ‎• 🍒 \n⣿‎ ‎ • --------------- • --------------- •\n⣿‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎👩🏼𝑺𝒖𝒑𝒍𝒆𝒏𝒕𝒆𝒔:\n⣿‎ ‎ ‎• 🍒\n⣿‎ ‎ ‎• 🍒\n⣿‎ ‎ • --------------- • --------------- •\n⣿‎ ‎ ‎ ‎  ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ 👩🏼𝑫𝒐𝒏𝒂𝒅𝒐𝒓𝒂:\n⣿‎ ‎ ‎• 🍒\n╰━━━━━━━━━━━━━━━━\n@subject'},  { quoted: m })
 }
 handler.help = ['pagina']
 handler.tags = ['info']
-handler.command = /^aviso$/i
+handler.command = /^lista2$/i
 export default handler
