@@ -18,22 +18,25 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     var res = await yts(text)
     var vid = res.videos[0]
     var q = '128kbps'
-const texto1 = `乂  Y O U T U B E   M U S I C\n
-	✩ *Título ∙* ${vid.title}\n
-        ✩ *Duración ∙* ${vid.timestamp}\n
-        ✩ *Visitas ∙* ${vid.views}\n
-        ✩ *Autor ∙* ${vid.author.name}\n
-        ✩ *Publicado ∙* ${vid.ago}\n
-        ✩ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`.trim()
+const texto1 = `*\`╭━〔 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*
+┃➔ *🗣𝑼𝒔𝒖𝒂𝒓𝒊𝒐:* ${usuario}
+┃➔ *✅𝑪𝒐𝒎𝒂𝒏𝒅𝒐:* .play
+┃➔ *🏴𝑻𝒊𝒕𝒖𝒍𝒐:* ${vid.title}\n
+┃➔ *👤𝑨𝒖𝒕𝒐𝒓:* ${vid.author.name}\n
+┃➔ *⏰𝑫𝒖𝒓𝒂𝒄𝒊𝒐𝒏:* ${vid.timestamp}\n
+┃➔ *👀𝑽𝒊𝒔𝒊𝒕𝒂𝒔:* ${vid.views}\n
+┃➔ *🗓𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐:* ${vid.ago}\n
+┃➔ *❗𝑼𝒓𝒍:* ${'https://youtu.be/' + vid.videoId}\n
+╰━━━━━━━━━━━━╯`.trim()
 		
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
-	['Audio 📀', `${usedPrefix}mp3 ${text}`],
-	['Video 🎥', `${usedPrefix}mp4 ${text}`]
+	['🎧𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑 𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}mp3 ${text}`],
+	['🎥𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐑 𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}mp4 ${text}`]
   ], null, [['Canal', `${md}`]], m)
 	  }
   
             if (command == "mp3") {
-	 if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`, m, fake,)
+	 if (!text) return conn.reply(m.chat, `> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.`, m, fake,)
 		
        try {
     const res = await yts(text)
@@ -82,18 +85,21 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
     }
         
         if (command == "mp4") {
-            if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`, m, fake,)
+            if (!text) return conn.reply(m.chat, `*> 🎵𝙸𝚗𝚐𝚛𝚎𝚜𝚊 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚌𝚘𝚗 𝚎𝚕 𝚝í𝚝𝚞𝚕𝚘 𝚍𝚎𝚕 𝚟𝚒𝚍𝚎𝚘 𝚘 𝚖ú𝚜𝚒𝚌𝚊 𝚚𝚞𝚎 𝚍𝚎𝚜𝚎𝚊𝚜 𝚚𝚞𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝 𝚍𝚎𝚜𝚌𝚊𝚛𝚐𝚞𝚎 𝚙𝚊𝚛𝚊 𝚝𝚒.*`, m, fake,)
     await m.react('🕓')
     let res = await yts(text)
     let vid = res.videos[0]
     let q = '360p'
-	const texto1 = `Y O U T U B E 乂 M U S I C\n
-	✩ *Título ∙* ${vid.title}\n
-        ✩ *Duración ∙* ${vid.timestamp}\n
-        ✩ *Visitas ∙* ${vid.views}\n
-        ✩ *Autor ∙* ${vid.author.name}\n
-        ✩ *Publicado ∙* ${vid.ago}\n
-        ✩ *Url ∙* ${'https://youtu.be/' + vid.videoId}\n`
+	const texto1 = `*\`╭━〔 𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*
+┃➔ *🗣𝑼𝒔𝒖𝒂𝒓𝒊𝒐:* ${usuario}
+┃➔ *✅𝑪𝒐𝒎𝒂𝒏𝒅𝒐:* .play
+┃➔ *🏴𝑻𝒊𝒕𝒖𝒍𝒐:* ${vid.title}\n
+┃➔ *👤𝑨𝒖𝒕𝒐𝒓:* ${vid.author.name}\n
+┃➔ *⏰𝑫𝒖𝒓𝒂𝒄𝒊𝒐𝒏:* ${vid.timestamp}\n
+┃➔ *👀𝑽𝒊𝒔𝒊𝒕𝒂𝒔:* ${vid.views}\n
+┃➔ *🗓𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒅𝒐:* ${vid.ago}\n
+┃➔ *❗𝑼𝒓𝒍:* ${'https://youtu.be/' + vid.videoId}\n
+╰━━━━━━━━━━━━╯`
 	/*
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
