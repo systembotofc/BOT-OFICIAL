@@ -18,7 +18,7 @@ let handler = async (m, { conn, usedPrefix, command, paypal }) => {
     await m.react('✅');
 }
 
-handler.help = ['vv2fem00'];
-handler.tags = ['vv2fem00'];
-handler.command = /^vv2fem00$/i;
+handler.help = ['vv2fem01'];
+handler.tags = ['vv2fem01'];
+handler.command = /^vv2fem01$/i;
 export default handler;
