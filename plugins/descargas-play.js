@@ -95,7 +95,7 @@ await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`,  m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, m)
+       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━●───── ${vid.timestamp}\`*`, m)
        await m.react('✅')
        } catch {
        try {
@@ -105,7 +105,7 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas 
        
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, fake,).then(_ => m.react('✖️'))
        
-       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━━●────── ${vid.timestamp}\`*`, m)
+       await conn.sendFile(m.chat, dl_url, 'yt.jpg', `${vid.title}\n*ㅤ ㅤ⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻ㅤㅤ*\n*\`00:21 ━━━●───── ${vid.timestamp}\`*`, m)
        await m.react('✅')
        } catch (error) {
         await conn.reply(m.chat,`*☓ Ocurrió un error inesperado*`, m).then(_ => m.react('✖️'))
