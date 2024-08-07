@@ -45,6 +45,15 @@ export async function before(m, {conn}) {
       },
       {quoted: fkontak}
     );
+  } else if (m.messageStubType == 28) {
+    await this.sendMessage(
+      m.chat,
+      {
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Un nuevo miembro se ha unido al grupo.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ¡Bienvenido/a @${m.messageStubParameters[0].split`@`[0]}!\n╰━━━━━━━━━━━━━━━╯`,
+        mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`]
+      },
+      {quoted: fkontak}
+    );
   } else if (m.messageStubType == 29) {
     await this.sendMessage(
       m.chat,
