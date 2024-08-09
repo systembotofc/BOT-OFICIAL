@@ -40,7 +40,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Grupo ${m.messageStubParameters[0] == "on" ? "Cerrado 🔒" : "Abierto 🔓"}\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ${m.messageStubParameters[0] == "on" ? "Solo los administradores pueden escribir" : "_. Ya pueden escribir todos" } en este grupo.\n╰━━━━━━━━━━━━━━━╯`,
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Grupo ${m.messageStubParameters[0] == "on" ? "Cerrado 🔒" : "Abierto 🔓"}\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ${m.messageStubParameters[0] == "on" ? "Solo los administradores pueden escribir" : "Ya pueden escribir todos" } en este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [m.sender],
       },
       {quoted: fkontak}
@@ -49,7 +49,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Un nuevo miembro se ha unido al grupo.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ¡Bienvenido/a @${m.messageStubParameters[0].split`@`[0]}!\n╰━━━━━━━━━━━━━━━╯`,
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Un miembro se salió del grupo.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ¡LARGATE CTMR<3¡ @${m.messageStubParameters[0].split`@`[0]}!\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`]
       },
       {quoted: fkontak}
