@@ -49,7 +49,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: @user\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Un miembro se salió del grupo.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ¡LARGATE CTMR<3¡\n╰━━━━━━━━━━━━━━━╯`,
+        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: @user\n┃➔ Un miembro se salió del grupo.\n┃➔ ¡LARGATE CTMR<3¡\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`]
       },
       {quoted: fkontak}
