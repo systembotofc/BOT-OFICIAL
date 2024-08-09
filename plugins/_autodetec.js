@@ -36,6 +36,11 @@ export async function before(m, {conn}) {
       },
       {quoted: fkontak}
     );
+  if (chat.bienvenida && m.messageStubType == 27) {
+    let bienvenida = `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Un nuevo miembro se ha unido al grupo.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: ¡Bienvenido/a @${m.messageStubParameters[0].split`@`[0]}!\n╰━━━━━━━━━━━━━━━╯`
+    
+await conn.sendAi(m.chat, botname, textbot, bienvenida, img, img, canal)
+    );
   } else if (m.messageStubType == 26) {
     await this.sendMessage(
       m.chat,
