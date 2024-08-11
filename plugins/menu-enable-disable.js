@@ -177,7 +177,7 @@ await conn.sendList(m.chat, '> 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒 𝐏𝐀𝐑𝐀
 
 handler.help = ['enable']
 handler.tags = ['disable']
-handler.command = ['enable', 'disable', 'on'] 
+handler.command = ['enable2', 'disable2', 'on2'] 
 handler.register = true 
 export default handler
 
