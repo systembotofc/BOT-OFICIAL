@@ -405,7 +405,7 @@ throw false
 global.opts['swonly'] = isEnable
 break
 default:
-if (!/[01]/.test(command)) return await conn.reply(m.chat, `> PORFAVOR USA EL COMANDO .ENABLE2`, fkontak, { mentions: [aa,] })
+if (!/[01]/.test(command)) return await conn.reply(m.chat, `> PORFAVOR USA EL COMANDO .ENABLE2 / .DISABLE2`, fkontak, { mentions: [aa,] })
 //conn.sendMessage(m.chat, { text: texto }, { quoted: fkontak })
 //conn.sendMessage(m.chat, texto, {quoted: fkontak})	
 throw false
