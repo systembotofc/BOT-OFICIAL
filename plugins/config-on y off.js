@@ -585,7 +585,7 @@ throw false
 await conn.reply(m.chat, `> ${isEnable ? '✅' : '❌'} 𝐋𝐀 𝐅𝐔𝐍𝐂𝐈𝐎𝐍 ${type} 𝐒𝐄 𝐀 ${isEnable ? '𝐀𝐂𝐓𝐈𝐕𝐀𝐃𝐎' : '𝐃𝐄𝐒𝐀𝐂𝐓𝐈𝐕𝐀𝐃𝐎'} 𝐄𝐍 ${isAll ? '𝐌𝐈𝐙𝐔𝐊𝐈 𝐁𝐎𝐓\n\n> 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐁𝐄𝐍𝐉𝐀𝐌𝐈𝐍' : isUser ? '' : '𝐌𝐈𝐙𝐔𝐊𝐈 𝐁𝐎𝐓'}`, fkontak, m)}
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((en999|dis999)able999|(tru|fals)e999|(turn)?o999(n999|ff9999)|[01])$/i
+handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
 
 const more = String.fromCharCode(8206)
