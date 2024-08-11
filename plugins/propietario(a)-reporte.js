@@ -1,25 +1,15 @@
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `${mg}*𝙀𝙨𝙘𝙧𝙞𝙗𝙖 𝙚𝙡 𝙧𝙚𝙥𝙤𝙧𝙩𝙚*\n\n*𝙀𝙟𝙚𝙢𝙥𝙡𝙤:*\n*${usedPrefix + command} el comando ${usedPrefix}los stickers no funka.*`
-if (text.length < 8) throw `${fg} ✨ *𝑴𝒊́𝒏𝒊𝒎𝒐 10 𝒄𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒆𝒔 𝒑𝒂𝒓𝒂 𝒉𝒂𝒄𝒆𝒓 𝒆𝒍 𝒓𝒆𝒑𝒐𝒓𝒕𝒆..*`
-if (text.length > 1000) throw `${fg} 😼 *𝑴𝒂́𝒙𝒊𝒎𝒐 1000 𝑪𝒂𝒓𝒂𝒄𝒕𝒆𝒓𝒆𝒔 𝒑𝒂𝒓𝒂 𝒉𝒂𝒄𝒆𝒓 𝒆𝒍 𝒓𝒆𝒑𝒐𝒓𝒕𝒆.*`
-await delay(5 * 5000)
-let teks = `*_❒═════[ʀᴇᴘᴏʀᴛᴇ]═════╾❒_*\n*_┬_*\n*├ɴᴜᴍᴇʀᴏ: Wa.me/${m.sender.split`@`[0]}*\n*_┴_*\n*_┬_*\n*├ᴍᴇɴsᴀᴊᴇ: ${text}*\n*_┴_*`
-//conn.reply('593968585383@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
-//contextInfo: {
-//mentionedJid: [m.sender]
-//}})
-conn.reply('5492266466080@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
-contextInfo: {
-mentionedJid: [m.sender]
-}})
-await delay(3 * 3000)
-  m.reply(`> REPORTE\n\n> EL REPORTE FUE ENVIADO CON EXITO AL STAFF DE MIZUKI | BOT.`)
-
-}
-
-handler.help = ['reporte', 'request'].map(v => v + ' <teks>')
-handler.tags = ['info']
-handler.exp = 25 
-handler.command = /^(report|request|reporte|bugs|bug|report-owner|reportes|reportar)$/i 
-export default handler
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+const handler = async (m, {conn, text, usedPrefix, command}) => {
+  if (!text) throw `> 𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙪𝙣 𝙧𝙚𝙥𝙤𝙧𝙩𝙚\n\n*𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} el comando ${usedPrefix}play no manda nada*`;
+  if (text.length < 10) throw `𝙀𝙡 𝙧𝙚𝙥𝙤𝙧𝙩𝙚 𝙙𝙚𝙗𝙚 𝙨𝙚𝙧 𝙙𝙚 𝙢𝙞𝙣𝙞𝙢𝙤 10 𝙘𝙖𝙧𝙖𝙘𝙩𝙚𝙧𝙚𝙨`;
+  if (text.length > 1000) throw `𝙀𝙡 𝙧𝙚𝙥𝙤𝙧𝙩𝙚 𝙙𝙚𝙗𝙚 𝙨𝙚𝙧 𝙙𝙚 𝙢𝙖𝙭𝙞𝙢𝙤 1000 𝙘𝙖𝙧𝙖𝙘𝙩𝙚𝙧𝙚𝙨`;
+  const teks = `> 𝙍 𝙀 𝙋 𝙊 𝙍 𝙏 𝙀\n\n𝙉𝙪𝙢𝙚𝙧𝙤: wa.me/${m.sender.split`@`[0]}\n𝙈𝙚𝙣𝙨𝙖𝙟𝙚: ${text}`;
+  conn.reply('51936732723@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
+  conn.reply('51936732723@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {contextInfo: {mentionedJid: [m.sender]}});
+  m.reply(`> -ˋˏ ༻🔮 𝙀́𝙓𝙄𝙏𝙊 🔮༺ ˎˊ-\n\nREPORTE ENVIADO CON EXITO AL EQUIPO DE MIZUKI | BOT. 
+𝘛𝘦𝘯𝘥𝘳𝘢 𝘶𝘯𝘢 𝘳𝘦𝘴𝘱𝘶𝘦𝘴𝘵𝘢 𝘱𝘳𝘰𝘯𝘵𝘰.
+𝘋𝘦 𝘴𝘦𝘳 𝘧𝘢𝘭𝘴𝘰 𝘴𝘦𝘳𝘢 𝘪𝘨𝘯𝘰𝘳𝘢𝘥𝘰 𝘴𝘶 𝘳𝘦𝘱𝘰𝘳𝘵𝘦.`);
+};
+handler.help = ['reporte', 'request'].map((v) => v + ' <teks>');
+handler.tags = ['info'];
+handler.command = /^(report|request|reporte|bugs|bug|report-owner|reportes)$/i;
+export default handler;
