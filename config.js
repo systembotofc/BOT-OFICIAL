@@ -14,11 +14,16 @@ global.owner = [
 ['56981631195', '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇', true],
 ['51936732723', '👑 𝘖𝘞𝘕𝘌𝘙', true],
 ['51936732723', '✅ 𝘝𝘌𝘕𝘋𝘌𝘋𝘖𝘙 𝘈𝘜𝘛𝘖𝘙𝘐𝘡𝘈𝘋𝘖', true],
-['56949634570', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐴𝑁𝑇𝑂 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
-['593967946271', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐽𝑂𝑆𝑇𝐻𝐼𝑁 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
-['573114167966', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝑃𝐴𝑂 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
-['5493878249889', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝐿𝑈𝐿𝑈 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
-['5493873340673', '🏴 𝘚𝘖𝘗𝘖𝘙𝘛𝘌 𝑆𝑂𝐹𝐼𝑆 [𝘕𝘖 𝘝𝘌𝘕𝘛𝘈𝘚]', true],
+['51936732723', 'Owner', true],
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'], 
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'],
 ['51936732723']]
 
 global.mods = ['51936732723']
@@ -27,7 +32,7 @@ global.suittag = ['51936732723']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = "" //Ejemplo: +51936732723
+global.botNumberCode = "" //Ejemplo: +59309090909
 global.confirmCode = "" 
 
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰
@@ -36,7 +41,7 @@ global.confirmCode = ""
 //  en = English         pt = Português
 //  ar = عرب 
 
-global.lenguajeGB = es  //Idioma de Mizuki|Bot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de DokiBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -95,8 +100,8 @@ global.moment = moment
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'Ｍｉｚｕｋｉ | Ｂｏｔ'
-global.author = '{\n "bot": {\n   "name": "╰•★Ｍｉｚｕｋｉ | Ｂｏｔ★•╯",\n     "author": "𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉",\n   "status_bot": "active"\n }\n}'
+global.packname = '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇'
+global.author = '{\n "bot": {\n   "name": "🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇",\n     "author": "🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇",\n   "status_bot": "active"\n }\n}'
 
 
 //* *******Tiempo***************
@@ -113,22 +118,22 @@ global.saludo = "" + hour;
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.lb = 'ＭＩＺＵＫＩ | ＢＯＴ'
+global.lb = '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇'
 global.vs = '1.5.7'
 global.vsJB = '1.5.0'
-global.yt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
-global.ig = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
-global.md = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
-global.fb = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.yt = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.ig = 'https://www.instagram.com/boybenjx7'
+global.md = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.fb = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
 
-global.nna = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Actualización, información sobre el bot
-global.nn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 1
-global.nnn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo del Colaboracion
-global.nnnt2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' // Grupo COL 2
-global.nnntt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo COL 3
-global.nnnttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Canal MonkiBot
-global.nnntttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo ayuda sobre el bot
+global.nna = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Actualización, información sobre el bot
+global.nn = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 1
+global.nnn = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 2
+global.nnnt = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo del Colaboracion
+global.nnnt2 = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' // Grupo COL 2
+global.nnntt = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo COL 3
+global.nnnttt = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Canal MonkiBot
+global.nnntttt = 'https://www.whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo ayuda sobre el bot
 global.asistencia = 'wa.me/51936732723' //Dudas? escríbeme...
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
@@ -150,13 +155,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = 'ＭＩＺＵＫＩ | ＢＯＴ'
-global.igfg = 'ＭＩＺＵＫＩ | ＢＯＴ'
+global.wm = '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇'
+global.igfg = '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇'
 global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
-global.nomorown = 'Ｍｉｚｕｋｉ | Ｂｏｔ'
+global.nomorown = '🤖 𝑀𝐼𝑍𝑈𝐾𝐼 | 𝐵𝑂𝑇'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
@@ -164,8 +169,8 @@ global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.pre
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
 global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
 global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
-global.img = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?pid=ImgGn'
-global.img2 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?pid=ImgGn'
+global.img = 'https://i.imgur.com/H6AofpJl.jpg'
+global.img2 = 'https://i.imgur.com/R1uVUId.jpeg'
 
 global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, nnntttt, md, ig, lb, fb, yt]
 global.gataMenu = [img, img2]
