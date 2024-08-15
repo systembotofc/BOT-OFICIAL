@@ -1,12 +1,12 @@
-import { watchFile, unwatchFile } from 'fs'
-import chalk from 'chalk'
-import { fileURLToPath } from 'url'
-import fs from 'fs' 
-import * as cheerio from 'cheerio'
-import fetch from 'node-fetch'
-import axios from 'axios' 
-import moment from 'moment-timezone'
-import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
+import { watchFile, unwatchFile } from 'fs';
+import chalk from 'chalk';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
+import cheerio from 'cheerio';  // Importación correcta para cheerio en ES Modules
+import fetch from 'node-fetch';
+import axios from 'axios';
+import moment from 'moment-timezone';
+import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js';
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰
 
