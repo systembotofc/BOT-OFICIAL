@@ -11,10 +11,10 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰
 
 global.owner = [ 
-['51955918117', 'Daniel', true],
-['51967647592', 'Naye.xyz', true],
-['59175655964', 'Colaborador Alba070503', true],
-['573012482597', 'Owner', true],
+['51936732723', 'DEVELOPER', true],
+['51967647592',
+['59175655964',
+['573012482597',
 ['51929972576'],
 ['5493875262116'],
 ['51967647592'],
@@ -26,9 +26,9 @@ global.owner = [
 ['51977835959'],
 ['5214434703586']]
 
-global.mods = ['51977835959']
-global.prems = ['51977835959'],
-global.suittag = ['51955918117']
+global.mods = ['51936732723']
+global.prems = ['51936732723'],
+global.suittag = ['51936732723']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
@@ -100,8 +100,8 @@ global.moment = moment
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'IGNA - BOT - MD 💮🌺'
-global.author = '{\n "bot": {\n   "name": "Igna • Bot",\n     "author": "Daniel",\n   "status_bot": "active"\n }\n}'
+global.packname = 'MIZUKI BOT'
+global.author = '{\n "bot": {\n   "name": "MIZUKI BOT",\n     "author": "MIZUKI BOT",\n   "status_bot": "active"\n }\n}'
 
 
 //* *******Tiempo***************
@@ -118,23 +118,23 @@ global.saludo = "" + hour;
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.lb = 'IGNA • BOT'
+global.lb = 'MIZUKI BOT'
 global.vs = '1.5.7'
 global.vsJB = '1.5.0'
-global.yt = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv'
-global.ig = 'https://www.instagram.com/Jxtxn17'
-global.md = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
-global.fb = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
+global.yt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.ig = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.md = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.fb = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
 
-global.nna = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Actualización, información sobre el bot
-global.nn = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/Kw0ow5PyFN62GBs8rJT5Kv' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo del Colaboracion
-global.nnnt2 = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' // Grupo COL 2
-global.nnntt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo COL 3
-global.nnnttt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Canal MonkiBot
-global.nnntttt = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33' //Grupo ayuda sobre el bot
-global.asistencia = 'wa.me/51906641131' //Dudas? escríbeme...
+global.nna = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Actualización, información sobre el bot
+global.nn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 1
+global.nnn = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo 2
+global.nnnt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo del Colaboracion
+global.nnnt2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' // Grupo COL 2
+global.nnntt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo COL 3
+global.nnnttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Canal MonkiBot
+global.nnntttt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //Grupo ayuda sobre el bot
+global.asistencia = 'wa.me/51936732723' //Dudas? escríbeme...
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
 
