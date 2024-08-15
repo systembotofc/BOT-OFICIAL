@@ -2,7 +2,7 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs' 
-import cheerio from "cheerio": "^1.0.0-rc.12"
+import * as cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import axios from 'axios' 
 import moment from 'moment-timezone'
