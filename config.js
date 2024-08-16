@@ -15,20 +15,20 @@ global.owner = [
 ['51936732723', 'Vendedor', true],
 ['51936732723', 'Colaborador', true],
 ['51936732723', 'Owner', true],
-['51929972576'],
-['5493875262116'],
-['51967647592'],
-['59896392749'],
-['51907913096'], 
-['51906662557'],
-['573183650526'],
-['5492266466080'],
-['51977835959'],
-['5214434703586']]
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'], 
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723'],
+['51936732723']]
 
-global.mods = ['51977835959']
-global.prems = ['51977835959'],
-global.suittag = ['51955918117']
+global.mods = ['51936732723']
+global.prems = ['51936732723'],
+global.suittag = ['51936732723']
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
