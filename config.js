@@ -100,8 +100,8 @@ global.moment = moment
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'MIZUKI BOT'
-global.author = '{\n "bot": {\n   "name": "MIZUKI BOT",\n     "author": "MIZUKI BOT",\n   "status_bot": "active"\n }\n}'
+global.packname = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐗'
+global.author = '{\n "bot": {\n   "name": "ꜱʏꜱᴛᴇᴍ x",\n     "author": "ᴅᴇᴠᴇʟᴏᴘᴇʀ x",\n   "status_bot": "active"\n }\n}'
 
 
 //* *******Tiempo***************
@@ -118,7 +118,7 @@ global.saludo = "" + hour;
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.lb = 'MIZUKI BOT'
+global.lb = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐗'
 global.vs = '1.5.7'
 global.vsJB = '1.5.0'
 global.yt = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
@@ -155,13 +155,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = 'Igna • Bot'
-global.igfg = 'Igna • Bot'
+global.wm = 'ＳＹＳＴＥＭ Ｘ'
+global.igfg = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐗'
 global.wait = '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando..._ ▬▬▬▬▬▬▭*'
-global.nomorown = 'Igna • Bot'
+global.nomorown = 'ꜱʏꜱᴛᴇᴍ x'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
