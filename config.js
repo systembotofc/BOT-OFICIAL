@@ -11,10 +11,10 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━━ ⊰
 
 global.owner = [ 
-['51936732723', 'Developer', true],
-['51936732723', 'Vendedor', true],
-['51936732723', 'Colaborador', true],
-['51936732723', 'Owner', true],
+['51936732723', '𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐗', true],
+['51936732723',
+['51936732723',
+['51936732723',
 ['51936732723'],
 ['51936732723'],
 ['51936732723'],
