@@ -58,7 +58,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Ascendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en admin de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
+        text: `*\`╭━〔 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗 〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Ascendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en admin de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`],
       },
       {quoted: fkontak}
@@ -67,7 +67,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `*\`╭━〔  𝐌𝐈𝐙𝐔𝐊𝐈 | 𝐁𝐎𝐓  〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Descendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en miembro de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
+        text: `*\`╭━〔 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗 〕━╮\`*\n┃➔ 🗣𝙐𝙨𝙪𝙖𝙧𝙞𝙤: ${usuario}\n┃➔ ✅𝘿𝙚𝙩𝙚𝙘𝙩: Descendió a un usuario con los poderes de administrador.\n┃➔ ❗𝘼𝙫𝙞𝙨𝙤: @${m.messageStubParameters[0].split`@`[0]} Se convirtió en miembro de este grupo.\n╰━━━━━━━━━━━━━━━╯`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`],
       },
       {quoted: fkontak}
