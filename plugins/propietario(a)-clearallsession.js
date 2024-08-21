@@ -59,6 +59,6 @@ var handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['fixmsgespera'];
 handler.tags = ['fix'];
-handler.command = /^(ignadel|ds)$/i;
+handler.command = /^(tmpsystemx2|tmpsystemx2)$/i;
 
 export default handler;
