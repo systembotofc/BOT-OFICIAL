@@ -206,14 +206,14 @@ let menu = `*\`⌜ ＭＥＮＵ | ＣＯＭＰＬＥＴＯ ⌟\`*
 ┃➔ 🔩 ${usedPrefix}qc
 ╰━━━━━━━━━━━━━━╯`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://tse4.mm.bing.net/th?id=OIG3.cLOJAQj8neUVXa2OXGEU&pid=ImgGn`)).buffer()  
+let img = await (await fetch(`https://th.bing.com/th/id/OIG3.jwPDO4yo5ZZLK43hab43?cb=13&pid=ImgGn`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
 mentionedJid: [m.sender],
 forwardingScore: 9, 
 externalAdReply: {
-title: 'ＭＩＺＵＫＩ | ＢＯＴ\nᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ',
+title: 'ＳＹＳＴＥＭ Ｘ\nᴅᴇᴠᴇʟᴏᴘᴇʀ ᴘᴀᴏʟᴏ',
 //body: 'ᴅᴇᴠᴇʟᴏᴘᴇʀ: ʙᴇɴᴊᴀᴍɪɴ',
 thumbnail: img,
 sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u',
