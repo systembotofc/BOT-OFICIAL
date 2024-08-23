@@ -130,7 +130,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let videoUrl = 'https://www.tiktok.com/@trunksvisuals/video/7386377092679601440?is_from_webapp=1&sender_device=pc' // URL del video
+    let videoUrl = 'https://www.tiktok.com/@trunksvisuals/video/7386377092679601440?is_from_webapp=1&sender_device=pc.mp4' // URL del video
     
     let listSections = []    
     listSections.push({
