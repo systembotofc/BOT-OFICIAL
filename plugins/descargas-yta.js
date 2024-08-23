@@ -6,7 +6,7 @@ let limit = 100
 
 let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
   if (!args || !args[0]) {
-    return conn.reply(m.chat, `🧃 Escribe la URL de un video de YouTube que deseas descargar.`, m)
+    return conn.reply(m.chat, `*\`╭━❰❰ ＳＹＳＴＥＭ Ｘ ❱❱━╮\`*\n𝐕𝐮𝐞𝐥𝐯𝐞 𝐚 𝐮𝐬𝐚𝐫 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 .𝐲𝐭𝐚 𝐩𝐞𝐫𝐨 𝐚𝐜𝐨𝐦𝐩𝐚ñ𝐚𝐝𝐨 𝐝𝐞 𝐥𝐚 𝐔𝐑𝐋 𝐝𝐞𝐥 𝐯𝐢𝐝𝐞𝐨 𝐝𝐞 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐪𝐮𝐞 𝐝𝐞𝐬𝐞𝐚𝐬 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫.`, m)
   }
   
   if (!args[0].match(/youtu/gi)) {
