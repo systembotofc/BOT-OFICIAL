@@ -28,7 +28,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
     }
     
     await conn.sendMessage(m.chat, {
-      text: `🍭 *Título ∙* ${title}\n\n⚖️ *Tamaño ∙* ${size}\n\n*↻ Espera @${m.sender.split`@`[0]}, soy lenta. . .* .`,
+      text: `\`✅𝐓𝐈𝐓𝐔𝐋𝐎:\` ${title}\n\`🚀𝐓𝐀𝐌𝐀Ñ𝐎:\` ${size}`,
       contextInfo: { 
         mentionedJid: [m.sender],
       }
