@@ -77,7 +77,7 @@ let handler = async (_0x37fc51, { conn: _0x23d3f7, usedPrefix: _0x4121c8, text: 
     await _0x23d3f7.sendMessage(_0x37fc51.chat, _0x598a1e, _0x3d6c76, 'list', [_0x47cd94, _0x2858e1, _0x290562], _0x5c9e79);
 };
 
-handler.help = ['menu8', 'menú8'];
+handler.help = ['pruebamenu'];
 export default handler;
 
 function clockString(ms) {
