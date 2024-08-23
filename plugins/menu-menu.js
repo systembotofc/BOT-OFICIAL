@@ -130,7 +130,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let imageUrl = 'https://ibb.co/yY4g6hK' // URL de la imagen
+    let imageUrl = 'https://th.bing.com/th/id/OIG3.jwPDO4yo5ZZLK43hab43?w=1024&h=1024&rs=1&pid=ImgDetMain' // URL de la imagen
     
     let listSections = []    
     listSections.push({
