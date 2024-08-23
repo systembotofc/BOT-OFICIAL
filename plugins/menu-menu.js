@@ -54,17 +54,13 @@ https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u
 }
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
- try {
+  try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
     let { exp, star, level } = global.db.data.users[m.sender]
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
     let locale = 'es'
-    // d.getTimeZoneOffset()
-    // Offset -420 is 18.00
-    // Offset    0 is  0.00
-    // Offset  420 is  7.00
     let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
@@ -155,23 +151,25 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
-    let pp = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
-    let pp2 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
-    let pp3 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
-    let pp4 = 'https://th.bing.com/th/id/OIG3.cLOJAQj8neUVXa2OXGEU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn'
-    m.react('✅')
-   
-  //  conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: m })
-let listSections = []    
-listSections.push({
-title: '',
-rows: [{ header: "📚ＭＥＮＵ ＣＯＭＰＬＥＴＯ", title: "", id: `.allmenu`, description: `𝙼𝚞𝚎𝚜𝚝𝚛𝚊𝚖𝚎 𝚝𝚘𝚍𝚘𝚜 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` }, { header: "SudBot", title: "", id: `.serbot --code`, description: `𝚀𝚞𝚒𝚎𝚛𝚘 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚖𝚎 𝚎𝚗 𝚂𝚞𝚍𝙱𝚘𝚝 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
-{ header: "🚀ＶＥＬＯＣＩＤＡＤ", title: "", id: `.ping`, description: `𝚅𝚎𝚕𝚘𝚌𝚒𝚍𝚊𝚍 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
-{ header: "⏰ＵＰＴＩＭＥ", title: "", id: `.estado`, description: `𝚃𝚒𝚎𝚖𝚙𝚘 𝚊𝚌𝚝𝚒𝚟𝚘 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
-{ header: "🌐ＩＤＩＯＭＡ", title: "", id: `.idioma`, description: `𝙴𝚕𝚎𝚐𝚒𝚛 𝚒𝚍𝚒𝚘𝚖𝚊\n` },
-{ header: "✅ＳＴＡＦＦ ＭＩＺＵＫＩ | ＢＯＴ", title: "", id: `.creador`, description: `𝚂𝚝𝚊𝚏𝚏 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝` }
-]})
-await conn.sendList(m.chat, '*\`╭━〔 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗 〕━╮\`*\n┃➔ *☑𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ *🏴𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨:* 304\n╰━━━━━━━━━━━━╯', null, `𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗`, listSections, { mentions: [m.sender]}, {quoted: m})
+    let imageUrl = 'https://i.ibb.co/nsbttwG/file.jpg' // URL de la imagen
+    
+    let listSections = []    
+    listSections.push({
+      title: '',
+      rows: [
+        { header: "📚ＭＥＮＵ ＣＯＭＰＬＥＴＯ", title: "", id: `.allmenu`, description: `𝙼𝚞𝚎𝚜𝚝𝚛𝚎𝚖𝚎 𝚝𝚘𝚍𝚘𝚜 𝚕𝚘𝚜 𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` }, 
+        { header: "SudBot", title: "", id: `.serbot --code`, description: `𝚀𝚞𝚒𝚎𝚛𝚘 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚒𝚛𝚖𝚎 𝚎𝚗 𝚂𝚞𝚍𝙱𝚘𝚝 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+        { header: "🚀ＶＥＬＯＣＩＤＡＤ", title: "", id: `.ping`, description: `𝚅𝚎𝚕𝚘𝚌𝚒𝚍𝚨𝚍 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+        { header: "⏰ＵＰＴＩＭＥ", title: "", id: `.estado`, description: `𝚃𝚒𝚎𝚖𝚙𝚘 𝚊𝚌𝚝𝚒𝚟𝚘 𝚍𝚎 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝\n` },
+        { header: "🌐ＩＤＩＯＭＡ", title: "", id: `.idioma`, description: `𝙴𝚕𝚎𝚐𝚒𝚛 𝚒𝚍𝚒𝚘𝚖𝚎\n` },
+        { header: "✅ＳＴＡＦＦ ＭＩＺＵＫＩ | ＢＯＴ", title: "", id: `.creador`, description: `𝚂𝚝𝚊𝚏𝚏 𝙼𝚒𝚣𝚞𝚔𝚒 | 𝙱𝚘𝚝` }
+      ]
+    })
+    
+    // Enviar la imagen y el menú interactivo
+    await conn.sendMessage(m.chat, { image: { url: imageUrl }, caption: text.trim(), mentions: [m.sender] })
+    await conn.sendList(m.chat, '*\`╭━〔 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗 〕━╮\`*\n┃➔ *☑𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ *🏴𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝚊𝚗𝚍𝚘𝚜:* 304\n╰━━━━━━━━━━━━╯', null, `𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗`, listSections, { mentions: [m.sender] })
+
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
     throw e
@@ -183,7 +181,6 @@ handler.tags = ['main']
 handler.command = ['menu', 'help', 'menú'] 
 handler.register = true 
 export default handler
-
 
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
