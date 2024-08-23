@@ -147,7 +147,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     // Enviar la imagen y el menú interactivo
     await conn.sendMessage(m.chat, { image: { url: imageUrl }, caption: text.trim(), mentions: [m.sender] })
-    await conn.sendList(m.chat, '*\`╭━〔 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗 〕━╮\`*\n┃➔ *☑𝙑𝙚𝙧𝙨𝙞𝙤𝙣:* 1.0.0\n┃➔ *🏴𝙏𝙤𝙩𝙖𝙡 𝙙𝙚 𝙘𝙤𝙢𝚊𝚗𝚍𝚘𝚜:* 304\n╰━━━━━━━━━━━━╯', null, `𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗`, listSections, { mentions: [m.sender] })
+    await conn.sendList(m.chat, '', null, `𝙊𝙋𝘾𝙄𝙊𝙉𝙀𝙎 𝐒𝐘𝐒𝐓𝐄𝐌 𝐗`, listSections, { mentions: [m.sender] })
 
   } catch (e) {
     conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error.', m)
