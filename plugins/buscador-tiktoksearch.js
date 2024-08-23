@@ -11,7 +11,7 @@ const channel = 'https://example.com'; // URL del canal o fuente
 const textbot = 'Tu búsqueda en TikTok'; // Texto de pie de página para el mensaje
 
 let handler = async (message, { conn, text, usedPrefix, command }) => {
-  if (!text) return conn.reply(message.chat, '*\`╭━❰❰ ＳＹＳＴＥＭ Ｘ ❱❱━╮\`*\n👋🏻𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 @${m.sender.split`@`[0]}\n🍿¿𝐐𝐮é 𝐪𝐮𝐢𝐞𝐫𝐞𝐬 𝐛𝐮𝐬𝐜𝐚𝐫 𝐡𝐨𝐲 𝐞𝐧 𝐓𝐢𝐤𝐓𝐨𝐤?', message)
+  if (!text) return conn.reply(message.chat, '*\`╭━❰❰ ＳＹＳＴＥＭ Ｘ ❱❱━╮\`*\n👋🏻𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 @${userId}\n🍿¿𝐐𝐮é 𝐪𝐮𝐢𝐞𝐫𝐞𝐬 𝐛𝐮𝐬𝐜𝐚𝐫 𝐡𝐨𝐲 𝐞𝐧 𝐓𝐢𝐤𝐓𝐨𝐤?', message)
 
   async function createVideoMessage(url) {
     const { videoMessage } = await generateWAMessageContent({ video: { url } }, { upload: conn.waUploadToServer })
