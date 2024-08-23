@@ -45,7 +45,7 @@ let { thumbnail, url } = vid
 if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`,  m).then(_ => m.react('✖️'))
 
 await conn.sendMessage(m.chat, {
-        text: `  🍭 *Título ∙* ${title}\n\n⚖️ *Tamaño ∙* ${size}\n\n*↻ Espera @${m.sender.split`@`[0]}, soy lenta. . .* .`,
+        text: `*Título ∙* ${title}\n\n*Tamaño ∙* ${size}\n\n*↻ Espera @${m.sender.split`@`[0]}, soy lenta. . .* .`,
         contextInfo: { 
           mentionedJid: [m.sender],
         }
@@ -62,7 +62,7 @@ sourceUrl: `${url}`,
 thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 await m.react('✅')
 } catch {
-await conn.reply(m.chat, `*☓ Ocurrió un error inesperado*`,  m, fake,).then(_ => m.react('✖️'))
+await conn.reply(m.chat, `*☓ Ocurrió un error inesperado*`,  m).then(_ => m.react('✖️'))
 console.error(error)
 }}}
 handler.help = ['ytmp3 <url yt>']
