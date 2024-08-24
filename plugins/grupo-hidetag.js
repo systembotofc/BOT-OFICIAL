@@ -1,3 +1,4 @@
+// C O D I G O   C R E A D O   P O R   P A O L O   X
 import { generateWAMessageFromContent } from '@whiskeysockets/baileys'
 
 const handleNotification = async (message, { conn, text, participants }) => {
