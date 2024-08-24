@@ -101,7 +101,7 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
 global.packname = '𝐒𝐘𝐒𝐓𝐄𝐌 𝐗'
-global.author = '{\n "bot": {\n   "name": "ꜱʏꜱᴛᴇᴍ x",\n     "author": "ᴅᴇᴠᴇʟᴏᴘᴇʀ x",\n   "status_bot": "active"\n }\n}'
+global.author = ''
 
 
 //* *******Tiempo***************
